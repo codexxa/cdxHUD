@@ -3,22 +3,21 @@ Soon
 
 
 ##Mission Statement:
-
 Create a clean, effecient TF2 hud for the competitive scene that doesn't use over 9000 fonts.
 Based on ejpHUD and influenced by Garm3nHUD.
 
 ####To Do
-+Main Menu
+*Main Menu
 --*Fix positioning of certain elements
 
-+Scoreboards
+*Scoreboards
 --*6v6
 --*9v9
 
-+Font Issues
+*Font Issues
 --*Fix fonts for EVERYTHING
 
-+Clean up
+*Clean up
 --*Clean up useless code
 --*Organise/format code
 --*Make everything as efficient as possible
