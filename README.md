@@ -7,17 +7,17 @@ Create a clean, effecient TF2 hud for the competitive scene that doesn't use ove
 Based on ejpHUD and influenced by Garm3nHUD.
 
 ####To Do
-*Main Menu
+1.Main Menu
 --*Fix positioning of certain elements
 
-*Scoreboards
+2.Scoreboards
 --*6v6
 --*9v9
 
-*Font Issues
+3.Font Issues
 --*Fix fonts for EVERYTHING
 
-*Clean up
+4.Clean up
 --*Clean up useless code
 --*Organise/format code
 --*Make everything as efficient as possible
