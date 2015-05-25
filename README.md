@@ -8,20 +8,21 @@ Based on ejpHUD and influenced by Garm3nHUD.
 
 ####To Do
 1.Main Menu
-  *Fix positioning of certain elements
+- [ ] Fix OCD box placement
+- [ ] Fix positioning of certain elements
 
 2.Scoreboards
-  *6v6
-  *9v9
+- [ ] 6v6
+- [ ] 9v9
 
 3.Font Issues
-  *Fix fonts for EVERYTHING
+- [ ] Fix fonts for EVERYTHING
 
 4.Clean up
-  *Clean up useless code
-  *Organise/format code
-  *Make everything as efficient as possible
-  *Delete unused fonts
+- [ ] Clean up useless code
+- [ ] Organise/format code
+- [ ] Make everything as efficient as possible
+- [ ] Delete unused fonts
 
 
 ######Disclaimer
