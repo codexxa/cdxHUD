@@ -82,7 +82,7 @@
 		"zpos"				"-1"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"eBlackT"
+		"fillcolor"			"0 0 0 50" //eBlackT
 	}
 	"TargetNameLabel"
 	{	
@@ -90,7 +90,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"NeouB14"
 		"xpos"			"50"
-		"ypos"			"0"
+		"ypos"			"5"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"15"
@@ -104,7 +104,7 @@
 		"brighttext"		"0"
 		"fgcolor_override"		"eWhite"
 	}
-	"TargetDataLabel"
+	"TargetDataLabel" //ammo
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TargetDataLabel"
@@ -164,7 +164,7 @@
 		"wide"			"10"
 		"tall"			"10"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/leaderboard_streak"
 		"scaleImage"	"1"
 	}

@@ -8,7 +8,7 @@
 		"xpos"			"c-62"
 		"ypos"			"r113"
 		"zpos"			"5"
-		"wide"			"200"
+		"wide"			"200" 
 		"tall"			"130"
 	}	
 	
@@ -32,7 +32,7 @@
 		"xpos"					"99999"
 		"ypos"					"99999"
 		"zpos"					"2"
-		"wide"					"125"
+		"wide"					"25" //125
 		"tall"					"6"
 		"autoResize"			"1"
 		"pinCorner"				"2"
@@ -47,23 +47,23 @@
 		"fgcolor_override"		"eBlack"
 	}
 
-	"ChargeMeter"
+	"ChargeMeter" //demoknightsheildcharge
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
-		"xpos"					"0"
+		"xpos"					"35"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"125"
-		"tall"					"6"		
+		"wide"					"50" //125
+		"tall"					"4"		
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
 		"enabled"				"1"
 		"textAlignment"			"Left"
 		"fgcolor_override"      "eBlue"
-		"bgcolor_override"      "50 50 50 225"
+		"bgcolor_override"      "255 255 255 25"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}				
@@ -107,12 +107,12 @@
 			"textalignment"	"center"
 		}
 		
-		"NumPipesLabel"
+		"NumPipesLabel" //pipes on the field not 0
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"30"
 			"tall"			"30"
@@ -125,7 +125,7 @@
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Cafe14"
+			"font"			"strasua18"
 			"fgcolor"	"eWhite"
 		}
 		"NumPipesLabelDropshadow"
@@ -183,12 +183,12 @@
 			"alpha"			"100"
 		}
 
-		"NumPipesLabel"
+		"NumPipesLabel" //number of stickies 0
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabel"
-			"xpos"			"5"
-			"ypos"			"5"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"5"
 			"wide"			"30"
 			"tall"			"30"
@@ -201,7 +201,7 @@
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"Cafe14"
+			"font"			"strasua18" //no pipes
 			"fgcolor"	"eWhite"
 		}
 		"NumPipesLabelDropshadow"

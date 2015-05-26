@@ -108,34 +108,21 @@
 		"fillcolor"		"eBlue"
 		"PaintBackgroundType"	"0"
 	}
-	"PlayerStatusHealthValue"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"75"
-		"ypos"			"31"
-		"zpos"			"5"
-		"wide"			"110"
-		"tall"			"25"
-		"visible"		"0"
-		"enabled"		"0"
-		"textAlignment"	"east"
-		"font"			"abeat10"
-	}
-	"PlayerStatusHealthValueTour"
+
+	  
+	"PlayerStatusHealthValue2"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueTour"
-		"xpos"			"130"		//115
+		"fieldName"		"PlayerStatusHealthValue2"
+		"xpos"			"130"
 		"ypos"			"3"
-		"zpos"			"5"
+		"zpos"			"6"
 		"wide"			"30"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
-		"textAlignment"		"center"
-		"fgcolor"			"White"
-		"font"			"cafe10"
-      }								
+		"textAlignment"		"east"
+		"font"			"strasua14"
+      }		  
 }

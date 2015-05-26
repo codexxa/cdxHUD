@@ -6,9 +6,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-120" 
-		"ypos"			"r114" 
-		"wide"			"300"
-		"tall"			"42"
+		"ypos"			"r124" 
+		"wide"			"400"
+		"tall"			"410"
 	}
 	
 	"Background"
@@ -24,15 +24,15 @@
 		"enabled"		"0"		
 	}
 	
-	"ChargeLabel"
+	"ChargeLabel" //percent label
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"46"
-		"ypos"			"21"
-		"zpos"			"3"
-		"wide"			"160"
-		"tall"			"12"
+		"xpos"			"95"
+		"ypos"			"7"
+		"zpos"			"6"
+		"wide"			"50"
+		"tall"			"18"
 		"autoResize"	"1"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -42,8 +42,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cafe12"
-		"fgcolor"		"eBlack"
+		"font"			"museo14"
+		"fgcolor"		"255 255 255 255"
 	}
 	"PercentSign"
 	{
@@ -104,29 +104,29 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"VaccinatorBG"
-		"xpos"			"42"
-		"ypos"			"20"
+		"xpos"			"55"
+		"ypos"			"10"
 		"zpos"			"-2"
-		"wide"			"150"
-		"tall"			"12"	
+		"wide"			"120"
+		"tall"			"10"	
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"32 32 32 245"
+		"fillcolor"		"32 32 32 12" // okay then?
 		"scaleImage"		"1"
 	}		
 	
-	"ChargeMeter"
+	"ChargeMeter" //charge meter progress
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"42"
-		"ypos"			"20"
+		"xpos"			"55"
+		"ypos"			"10"
 		"zpos"			"2"
-		"wide"			"160"
-		"tall"			"12"				
+		"wide"			"120"
+		"tall"			"10"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -134,8 +134,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"eBlue"
-		"bgcolor_override"	"eWhite"
+		"fgcolor_override"	"eblue"
+		"bgcolor_override"	"255 255 255 12"
 	}		
 
 	"ChargeMeter1"

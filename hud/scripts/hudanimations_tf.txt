@@ -204,14 +204,20 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthValueShadow			FgColor		"0 175 255 255"		Accel 0.0 0.0
-	Animate HealthLabel						FgColor		"0 175 255 255"		Accel 0.0 0.0
-	Animate	HealthBGBuff					alpha		"255"		Accel 0.0 0.0
-	Animate BGHPbuff                        Alpha       "255"         Accel 0.0 0.0
-	Animate BGHP                            Alpha       "0"         Accel 0.0 0.0
-	Animate BoltLabel                   FgColor       "0 175 255 255"         Accel 0.0 0.0
+	Animate PlayerStatusHealthValueShadow	FgColor		"0 90 130 255"		Accel 0.0 0.0
+
+	Animate	PlayerStatusHealthValue 	FgColor		"0 175 255 255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue 	FgColor		"0 155 255 255"			Linear 0.2 0.4
+
+	Animate	PlayerStatusHealthValue2 	FgColor		"0 175 255 255"		Linear 0.0 0.2
+	Animate	PlayerStatusHealthValue2 	FgColor		"0 150 255 255"			Linear 0.2 0.4
+
+
+	RunEvent HudHealthBonusPulseLoop	0.4
+	
 }
 
+// darkblue 0 60 80 255
 //garm3nblue 0 175 255 255
 
 // call to loop HudHealthBonusPulse
@@ -222,16 +228,16 @@ event HudHealthBonusPulseLoop
 
 event HudHealthBonusPulseStop
 {
-	Animate PlayerStatusHealthValueShadow			FgColor		"0 0 0 0"		Accel 0.0 0.0
-	Animate HealthLabel						FgColor		"eWhite"		Accel 0.0 0.0
-	Animate	HealthBGBuff					alpha		"0"				Accel 0.0 0.0
-	Animate BGHPbuff                       Alpha       "0"         Accel 0.0 0.0
-	Animate BGHP                            Alpha       "255"         Accel 0.0 0.0
-	Animate BoltLabel                            FgColor       "eWhite"         Accel 0.0 0.0
-
-	
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
+	StopPanelAnimations PlayerStatusHealthValue 0.0 
+	StopPanelAnimations PlayerStatusHealthValue2 0.0
+
+	Animate PlayerStatusHealthValue 	FgColor		"TanLight"		Linear 0.0 0.0
+
+	Animate PlayerStatusHealthValue2 	FgColor		"TanLight"		Linear 0.0 0.0
+
+
 }
 
 //===========================================
@@ -241,11 +247,12 @@ event HudHealthDyingPulse
 {
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue			FgColor		"eRed"		Accel 0.0 0.0
-	Animate HealthLabel						FgColor		"eRed"		Accel 0.0 0.0
-	Animate	HealthBGHurt					alpha		"255"		Accel 0.0 0.0
-	Animate BGHPlow                        Alpha       "255"         Accel 0.0 0.0
-	Animate BoltLabel                      FgColor       "eRed"         Accel 0.0 0.0
+
+	Animate PlayerStatusHealthValue 	FgColor		"255 15 15 255"		Linear 0.0 0.075
+    Animate PlayerStatusHealthValue 	FgColor		"215 15 15 255"			Linear 0.125 0.075
+
+	Animate PlayerStatusHealthValue2 	FgColor		"255 35 15 255"		Linear 0.0 0.075
+    Animate PlayerStatusHealthValue2 	FgColor		"215 35 15 255"			Linear 0.125 0.075
 
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
@@ -274,10 +281,17 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate AmmoLabel					FgColor		"eRed"		Accel 0.0 0.0
-	Animate AmmoInClip					FgColor		"eRed"		Accel 0.0 0.0
-	Animate AmmoInReserve				FgColor		"eRed"		Accel 0.0 0.0
-	Animate AmmoNoClip					FgColor		"eRed"		Accel 0.0 0.0
+	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+
+	Animate	AmmoInClip		FgColor		"255 15 15 255"		Linear 0.0 0.075
+	Animate	AmmoInClip		FgColor		"215 15 15 255"			Linear 0.125 0.075
+
+	Animate	AmmoInReserve		FgColor		"255 15 15 255"		Linear 0.0 0.075
+	Animate	AmmoInReserve		FgColor		"215 15 15 255"			Linear 0.125 0.075
+
+	Animate	AmmoNoClip		FgColor		"255 15 15 255"		Linear 0.0 0.075
+	Animate	AmmoNoClip		FgColor		"215 15 15 255"			Linear 0.125 0.075
 	
 	RunEvent HudLowAmmoPulseLoop	0.25
 }

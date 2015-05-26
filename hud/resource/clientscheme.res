@@ -4188,6 +4188,36 @@ Scheme
 			}
 		}
 		
+
+		"MuseoB48"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"48"
+				"weight"	"600"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		
+		}
+		
+		
+		
+		"MuseoB52"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"52"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		
+		}
+		
+		
 		"NeouB8"
 		{
 			"1"
@@ -4249,6 +4279,17 @@ Scheme
 			{
 			"name"			"Neou Bold"
 			"tall" 			"18"
+			"weight" 		"900"
+			"antialias" 	"1"
+			}
+		}
+		
+		"NeouB20"
+		{
+			"1"
+			{
+			"name"			"Neou Bold"
+			"tall" 			"20"
 			"weight" 		"900"
 			"antialias" 	"1"
 			}
@@ -4594,6 +4635,260 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+		"strasua14"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua16"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"strasua18"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua20"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua22"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"22"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		"strasua24"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"24"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua26"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"26"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua28"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"28"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"strasua30"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+		"strasua32"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"32"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+
+
+		
+		"strasua38"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"38"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+
+		"strasua42"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"42"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		"strasua44"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"44"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
+		
+		"strasua46"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"46"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		"strasua48"
+		{
+			"1"
+			{
+				"name"		"Strasua-Regular"
+				"tall"		"48"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		//killstreak skull cdxSkull
+
+		"skull20"
+		{
+			"1"
+			{
+				"name"		"cdxSkull"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"				
+			}
+		
+		}
+		
+		"skull30"
+		{
+			"1"
+			{
+				"name"		"cdxSkull"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"				
+			}
+		
+		}
+		"skull40"
+		{
+			"1"
+			{
+				"name"		"cdxSkull"
+				"tall"		"40"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"				
+			}
+		
+		}
+
+		"skull50"
+		{
+			"1"
+			{
+				"name"		"cdxSkull"
+				"tall"		"50"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"				
+			}
+		
+		}
+
+		"skull60"
+		{
+			"1"
+			{
+				"name"		"cdxSkull"
+				"tall"		"60"
+				"weight"	"400"
+				"additive"		"0"
+				"antialias"	"1"				
+			}
+		
+		}
+		
+		
+		
+		
 		
 		"CircleBG"
 		{
@@ -8706,6 +9001,18 @@ Scheme
 		{
 			"font" "resource/fonts/Gotham-Medium.otf"
 			"name" "Gotham-Medium"
+		}
+
+		"26"
+		{
+			"font" "resource/fonts/Strasua-Regular.ttf"
+			"name" "Strasua-Regular"
+		}
+	
+		"27"
+		{
+			"font" "resource/fonts/cdxSkull.ttf"
+			"name" "cdxSkull"
 		}
 		
 	}

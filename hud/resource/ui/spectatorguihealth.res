@@ -59,9 +59,10 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"eBlack"
+		"fillcolor"		"0 0 0 100"
 	}
-	"HealthBGBuff"
+	"HealthBGBuff" //when bufferino'd?
+	
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBGBuff"
@@ -72,8 +73,8 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"eBlue"
-		"alpha"			"0"
+		"fillcolor"		"0 175 255 0"
+		alpha			"0"
 	}
 	"HealthBGHurt"
 	{
@@ -89,10 +90,10 @@
 		"fillcolor"		"eRed"
 		"alpha"			"0"
 	}
-	"TargetStatusHealthValue"
+	"PlayerStatusHealthValue" //TargetStatusHealthValue
 	{
 		"ControlName"	"Label"
-		"fieldName"		"TargetStatusHealthValue"
+		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"5"
@@ -101,7 +102,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%health%"
-		"font"			"Cafe16"
+		"font"			"strasua18"
 		"textAlignment"	"center"
 		"fgcolor_override"		"eWhite"
 	}

@@ -14,20 +14,20 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"0 165 230 255"
-		"NegativeColor"			"255 255 255 255"
+		"PositiveColor"			"0 175 255 255"
+		"NegativeColor"			"160 230 30 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Cafe14"
-		"delta_item_font_big"	"Cafe16"
+		"delta_item_font"		"strasua28"
+		"delta_item_font_big"	"strasua28"
 	}
 	"CDamageAccountValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"Cafe24"
-		"fgcolor"		"eBlue"
-		"xpos"			"c-150"
-		"ypos"			"r90"
+		"font"			"strasua28"
+		"fgcolor"		"160 230 30 255" //cdxGreen
+		"xpos"			"200"  //c-150
+		"ypos"			"r120"  //r90
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"50"

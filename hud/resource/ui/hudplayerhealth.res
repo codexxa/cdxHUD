@@ -5,8 +5,8 @@
         {
                 "ControlName"   "EditablePanel"
                 "fieldName"             "HudPlayerHealth"
-                "xpos"                          "c-299"
-                "ypos"                          "r135"
+                "xpos"                  "c-290" //c-299
+                "ypos"                  "r106"
                 "zpos"                  "2"
                 "wide"                  "300"
                 "tall"                  "200"
@@ -148,26 +148,27 @@
                 "visible"               "1"
                 "enabled"               "1"
                 "labelText"             "%Health%"
-                "textAlignment"         "center"       
-                "font"                  "Museo48" 
+                "textAlignment"         "left"       
+                "font"                  "strasua48" 
                 "fgcolor"               "255 255 255 255"
         }
-        "PlayerStatusHealthValueShadow" //PLAYER HEALTH
-        {
-                "ControlName"   "CExLabel"
-                "fieldName"             "PlayerStatusHealthValue"
-                "xpos"                  "131"
-                "ypos"                  "7"      
-                "zpos"                  "4"
-                "wide"                  "100"
-                "tall"                  "50"
-                "visible"               "1"
-                "enabled"               "1"
-                "labelText"             "%Health%"
-                "textAlignment"         "center"       
-                "font"                  "Museo48" 
-                "fgcolor"               "0 0 0 0" //Garm3nHUDBlue
-        }
+		
+        //"PlayerStatusHealthValueShadow" //PLAYER HEALTH SHADOW
+        //{
+        //        "ControlName"   "CExLabel"
+        //        "fieldName"             "PlayerStatusHealthValueShadow"
+        //        "xpos"                  "131"
+        //        "ypos"                  "7"      
+        //        "zpos"                  "4"
+        //        "wide"                  "100"
+        //        "tall"                  "50"
+        //      "visible"               "1"
+        //        "enabled"               "1"
+        //        "labelText"             "%Health%"
+        //      "textAlignment"         "left"       
+        //  "font"                  "strasua48" 
+        //    "fgcolor"               "0 0 0 0" //Garm3nHUDBlue
+        //}
     
         "HealthLabel"
         {

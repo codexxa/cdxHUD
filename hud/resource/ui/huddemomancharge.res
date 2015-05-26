@@ -5,13 +5,13 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-62"
+		"xpos"			"c-25"
 		"ypos"			"r113"
 		"zpos"			"5"
-		"wide"			"125"
-		"tall"			"8"
+		"wide"			"50"
+		"tall"			"4"
 		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"MeterBG"		"0 0 0 0" //gray
 	}
 	
 	"ChargeLabelText"
@@ -21,8 +21,8 @@
 		"xpos"			"2"
 		"ypos"			"2"
 		"zpos"			"3"
-		"wide"			"175"
-		"tall"			"12"
+		"wide"			"50"
+		"tall"			"4"
 		"visible"		"0"
 		"enabled"		"0"
 		"labeltext"		"CHARGE"
@@ -39,8 +39,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"125"
-		"tall"			"8"				
+		"wide"			"50"
+		"tall"			"4"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -49,6 +49,6 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override"	"eWhite"
-		"bgcolor_override"      "50 50 50 225"
+		"bgcolor_override"      "255 255 255 20" //50 50 50 225
 	}					
 }

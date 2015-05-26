@@ -5,9 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c180"	
-		"ypos"			"r133"	
-		"wide"			"100"
+		"xpos"			"c-25"
+		"ypos"			"r113"
+		"zpos"			"5"
+		"wide"			"50"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -93,7 +94,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"cafe16"
+		"font"					"strasua18"
 		"fgcolor_override"      "eWhite"
 	}
 }

@@ -2,14 +2,14 @@
 {
         HudWeaponAmmo
         {
-                "fieldName" "HudWeaponAmmo"
+                "fieldName" "HudWeaponAmmo" 
                 "visible"   "1"
                 "enabled"   "1"
-                "xpos"      "c95"
-                "ypos"      "r130"
+                "xpos"      "c90"
+                "ypos"      "r100" 
                 "zpos"      "2"
-                "wide"      "200"
-                "tall"      "100"
+                "wide"      "300"
+                "tall"      "200"
         }
        
         "AmmoLabel"
@@ -25,7 +25,7 @@
                 "enabled"               "0"
                 "labeltext"             "AMMO"
                 "textalignment" "center"
-                "font"                  "ChampagneB18"
+                "font"                  "strasua28" //ChampagneB18
                 "fgcolor_override"              "eWhite"
         }
        
@@ -65,8 +65,8 @@
                 "visible"               "1"
                 "enabled"               "1"
                 "labelText"             "%Ammo%"
-                "textAlignment" "west" 
-                "font"                  "Cafe32"
+                "textAlignment" "left" 
+                "font"                  "strasua48"
                 "fgcolor"               "255 255 255 255"
                
         }              
@@ -91,16 +91,16 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "AmmoInReserve"
-                "xpos"                  "60"
-                "ypos"                  "8"
+                "xpos"                  "50"
+                "ypos"                  "19"
                 "zpos"                  "7"
                 "wide"                  "100"
                 "tall"                  "30"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "south-west"           
+                "textAlignment" "left"           
                 "labelText"             "%AmmoInReserve%"
-                "font"                  "Cafe20"
+                "font"                  "strasua28"
                 "fgcolor"               "255 255 255 255"
         }              
         "AmmoInReserveShadow"
@@ -130,9 +130,9 @@
                 "tall"                  "50"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment"         "center"               
+                "textAlignment"         "left"               
                 "labelText"             "%Ammo%"
-                "font"                  "Cafe32"
+                "font"                  "strasua48"
                 "fgcolor"               "255 255 255 255"
                
         }      

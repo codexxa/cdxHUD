@@ -112,3 +112,4 @@
 		"font"					"Museo20"
 		"fgcolor_override"		"TransparentBlack"
 	}
+}
