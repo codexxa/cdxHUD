@@ -1,5 +1,5 @@
 # cdxHUD
-Soon
+Ready for alpha testing!
 
 
 ##Mission Statement:
@@ -12,11 +12,11 @@ Based on ejpHUD and influenced by Garm3nHUD.
 - [ ] Fix positioning of certain elements
 
 2.Scoreboards
-- [ ] 6v6
-- [ ] 9v9
+- [x] 6v6
+- [x] 9v9
 
 3.Font Issues
-- [ ] Fix fonts for EVERYTHING
+- [x] Fix fonts for EVERYTHING
 
 4.Clean up
 - [ ] Clean up useless code
