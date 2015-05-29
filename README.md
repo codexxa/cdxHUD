@@ -26,4 +26,4 @@ Based on ejpHUD and influenced by Garm3nHUD.
 
 
 ######Disclaimer
->This HUD is designed around competitive TF2, which means some elements are not supported. If you came here looking for support on mvm/halloween/whatever other godawful gamemodes Valve decides to kill the game with, get out.
+>This HUD is designed around competitive TF2, which means some gamemodes are not supported.
