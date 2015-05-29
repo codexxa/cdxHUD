@@ -8,8 +8,9 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "CO-OP" 
+		"label" "MvM" 
 		"command" "playpve"
+		"OnlyAtMenu"	"1"
 	}
 	"AdvancedOptionsButton"
 	{	

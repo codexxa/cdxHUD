@@ -194,15 +194,15 @@
 			"tall"			"30"
 			"autoResize"	"1"
 			"pinCorner"		"2"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"labelText"		"%activepipes%"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"strasua18" //no pipes
-			"fgcolor"	"eWhite"
+			"fgcolor"	"255 255 255 255"
 		}
 		"NumPipesLabelDropshadow"
 		{

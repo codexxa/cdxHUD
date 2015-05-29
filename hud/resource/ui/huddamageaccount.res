@@ -17,8 +17,8 @@
 		"PositiveColor"			"0 175 255 255"
 		"NegativeColor"			"160 230 30 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"strasua28"
-		"delta_item_font_big"	"strasua28"
+		"delta_item_font"		"strasua24"
+		"delta_item_font_big"	"strasua24"
 	}
 	"CDamageAccountValue"
 	{

@@ -13,12 +13,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"avatar_width"		"2"	 
-		"name_width"		"80"	 
+		"avatar_width"		"54"
+		"name_width"		"75"	 
 		"status_width"		"15"	 
 		"nemesis_width"		"15"	 
 		"class_width"		"15"	 
-		"score_width"		"30"
+		"score_width"		"23"
 		"ping_width"		"23"	 
 	}
 	"BlueScoreBG"
@@ -87,7 +87,7 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"199 40 44 127"
+		"fillcolor"			"79 135 171 127"
 		
 		
 		if_mvm
@@ -95,7 +95,7 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamBG"
+	"BlueTeamBG" //swap
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlueTeamBG"
@@ -110,7 +110,7 @@
 		"tall"				"30"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor"			"79 135 171 127"
+		"fillcolor"			"199 40 44 127"
 		
 		if_mvm
 		{
@@ -143,12 +143,12 @@
 	}
 	
 
-	"BlueTeamLabel"
+	"RedTeamLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"RedTeamLabel"
 		"font"			"abeatbyKai30"
-		"labelText"		"%blueteamname%"
+		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
 		"xpos"				"c8"
 		"ypos"			"c-98"
@@ -172,12 +172,12 @@
 			"visible"		"0"
 		}
 	}							
-	"BlueTeamScore" //round score blue
+	"RedTeamScore" //round score blue
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScore"
+		"fieldName"		"RedTeamScore"
 		"font"			"abeatbyKai30"
-		"labelText"		"%blueteamscore%"
+		"labelText"		"%redteamscore%"
 		"textAlignment"		"east"
 		"xpos"				"c173"
 		"ypos"			"c-98"
@@ -218,12 +218,12 @@
 			"visible"		"0"
 		}
 	}							
-	"BlueTeamPlayerCount" //number of players blue
+	"RedTeamPlayerCount" //number of players blue
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamPlayerCount"
+		"fieldName"		"RedTeamPlayerCount"
 		"font"			"abeat8"
-		"labelText"		"%blueteamplayercount%"
+		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"				"c53"
 		"ypos"				"c-177"
@@ -246,12 +246,12 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"BlueTeamLabel"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"BlueTeamLabel"
 		"font"			"abeatbyKai30"
-		"labelText"		"%redteamname%"
+		"labelText"		"%blueteamname%" //swap
 		"textAlignment"		"west"
 		"xpos"				"c-225"
 		"ypos"			"c-98"
@@ -278,12 +278,12 @@
 			"visible"		"0"
 		}
 	}
-	"RedTeamScore"
+	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScore"
+		"fieldName"		"BlueTeamScore"
 		"font"			"abeatbyKai30"
-		"labelText"		"%redteamscore%"
+		"labelText"		"%blueteamscore%" //swap
 		"textAlignment"		"east"
 		"xpos"				"c-60"
 		"ypos"				"c-100"
@@ -325,12 +325,12 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamPlayerCount" //Number of players Red
+	"BlueTeamPlayerCount" //Number of players Red
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamPlayerCount"
+		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"abeatbyKai18"
-		"labelText"		"%redteamplayercount%"
+		"labelText"		"%blueteamplayercount%" //swap
 		"textAlignment"		"center"
 		"xpos"				"c-150"
 		"ypos"              "c-177"
@@ -409,10 +409,10 @@
 			"visible"		"0"
 		}
 	}							
-	"BluePlayerList"
+	"RedPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
-		"fieldName"		"BluePlayerList"
+		"fieldName"		"RedPlayerList"
 		"xpos"			"c-1"
 		"ypos"			"c-70"
 		
@@ -430,7 +430,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"15"
-		"fgcolor_override"		"eBlue"
+		"fgcolor_override"		"red"
 		
 		if_mvm
 		{
@@ -440,10 +440,10 @@
 
 	
 	
-	"RedPlayerList" //Actual list of players
+	"BluePlayerList" //Actual list of players
 	{
 		"ControlName"	"SectionedListPanel"
-		"fieldName"		"RedPlayerList"
+		"fieldName"		"BluePlayerList"
 		"xpos"			"c-232"
 		"ypos"			"c-70"
 		
@@ -461,7 +461,7 @@
 		"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"15" //20
-		"textcolor"		"red"
+		"textcolor"		"Blue"
 		
 		
  		if_mvm
@@ -615,8 +615,10 @@
 		"font"			"abeat12" //NeouB14
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
-		"xpos"			"c-35"
-		"ypos"			"c-170"
+		"ypos"			"c-115"
+		"xpos"			"c80"
+		"ypos_minmode"	"c-163"
+		"xpos_minmode"	"c-35"
 		"zpos"			"3"
 		"wide"			"150"
 		"tall"			"15"
@@ -1323,7 +1325,7 @@
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"west"
 			"xpos"			"20"
-			"ypos"			"63"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1344,10 +1346,10 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
 			"font"			"default"
-			"labelText"		"Ubers:" //#TF_ScoreBoard_InvulnLabel
+			"labelText"		"Übers:" //#TF_ScoreBoard_InvulnLabel
 			"textAlignment"		"west"
 			"xpos"			"130"
-			"ypos"			"63"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1384,7 +1386,7 @@
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"west"
 			"xpos"			"20"
-			"ypos"			"55"
+			"ypos"			"56"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1408,7 +1410,7 @@
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
 			"xpos"			"75"
-			"ypos"			"63"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1432,7 +1434,7 @@
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
 			"xpos"			"190"
-			"ypos"			"65"
+			"ypos"			"64"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1469,7 +1471,7 @@
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
 			"xpos"			"75"
-			"ypos"			"55"
+			"ypos"			"56"
 
 			"zpos"			"3"
 			"wide"			"100"
@@ -1494,7 +1496,7 @@
 			"labelText"		"BackStabs:"
 			"textAlignment"		"west"
 			"xpos"			"130"
-			"ypos"			"55"
+			"ypos"			"56"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1518,7 +1520,7 @@
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"			"190"
-			"ypos"			"55"
+			"ypos"			"56"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1542,7 +1544,7 @@
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"west"
 			"xpos"			"130"
-			"ypos"			"47"
+			"ypos"			"48"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1566,7 +1568,7 @@
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"
 			"xpos"			"190"
-			"ypos"			"47"
+			"ypos"			"48"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1615,7 +1617,7 @@
 			"labelText"		"#TF_ScoreBoard_DamageLabel"
 			"textAlignment"		"west"
 			"xpos"			"20"
-			"ypos"			"47"
+			"ypos"			"48"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
@@ -1639,7 +1641,7 @@
 			"labelText"		"%damage%"
 			"textAlignment"		"west"
 			"xpos"			"75"
-			"ypos"			"47"
+			"ypos"			"48"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"
