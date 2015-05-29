@@ -333,7 +333,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"eBlueT"
+		"fillcolor"		"79 135 171 180"
 
 		if_mvm
 		{
@@ -399,7 +399,7 @@
 		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"eRedT"
+		"fillcolor"		"199 40 44 180"
 
 		if_mvm
 		{
@@ -458,7 +458,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentConditionLabel"
-		"font"			"abeat10"
+		"font"			"NeouB12"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -510,7 +510,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"abeat10"
+		"font"			"NeouB12"
 		"fgcolor"		"White"
 		"xpos"			"0"
 		"ypos"			"35"
@@ -527,7 +527,7 @@
 
 		if_mvm
 		{
-			"font"			"abeat10"
+			"font"			"NeouB12"
 			"xpos"			"155"
 			"ypos"			"104"
 			"wide"			"190"
@@ -593,7 +593,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"abeat12"
+		"font"			"NeouB12"
 		"xpos"			"238"
 		"ypos"			"114"
 		"wide"			"26"

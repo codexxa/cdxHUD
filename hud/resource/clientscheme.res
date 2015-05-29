@@ -520,7 +520,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -528,7 +528,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"13"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -537,7 +537,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -546,7 +546,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -555,7 +555,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -564,14 +564,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -583,7 +583,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -591,17 +591,17 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
 			}
 		}
-		"DefaultSmall"
+		"DefaultSmall" //scoreboard
 		{
 			"1"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -609,7 +609,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -617,7 +617,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -626,7 +626,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -635,7 +635,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -644,7 +644,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -656,7 +656,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -664,7 +664,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -672,7 +672,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -681,7 +681,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -690,7 +690,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -702,7 +702,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -710,7 +710,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -718,7 +718,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -727,7 +727,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -736,7 +736,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -745,14 +745,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Gotham-Medium"
+				"name"		"Verdana"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -776,7 +776,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Verdana" //Verdana
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -1607,7 +1607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"abeatbyKai"
+				"name"		"Verdana" //here
 				"tall"		"11"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -4044,6 +4044,18 @@ Scheme
 			}
 		}
 		
+		"Museo12"
+		{
+			"1"
+			{
+				"name"		"MuseoSansCyrl-500"
+				"tall"		"12"
+				"additive"		"0"
+				"antialias"	"1"
+			}
+		}
+		
+		
 		"Museo14"
 		{
 			"1"
@@ -4295,16 +4307,7 @@ Scheme
 			}
 		}
 		
-		"abeatByKai20"
-		{
-			"1"
-			{
-			"name"			"abeatbyKai"
-			"tall" 			"20"
-			"weight" 		"900"
-			"antialias" 	"1"
-			}
-		}
+
 		
 		"NeouB22"
 		{
@@ -4349,35 +4352,13 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
-		
-		"abeatByKai30"
-		{
-			"1"
-			{
-			"name"			"abeatbyKai"
-			"tall" 			"30"
-			"weight" 		"100"
-			"antialias" 	"1"
-			}
-		}
-		
+
 		"NeouB32"
 		{
 			"1"
 			{
 			"name"			"Neou Bold"
 			"tall" 			"32"
-			"weight" 		"900"
-			"antialias" 	"1"
-			}
-		}
-		
-		"abeatbyKai34"
-		{
-			"1"
-			{
-			"name"			"abeatbyKai"
-			"tall" 			"34"
 			"weight" 		"900"
 			"antialias" 	"1"
 			}
@@ -5321,6 +5302,43 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+
+
+		"abeatByKai20"
+		{
+			"1"
+			{
+			"name"			"abeatbyKai"
+			"tall" 			"20"
+			"weight" 		"900"
+			"antialias" 	"1"
+			}
+		}
+		
+		"abeatByKai30"
+		{
+			"1"
+			{
+			"name"			"abeatbyKai"
+			"tall" 			"30"
+			"weight" 		"100"
+			"antialias" 	"1"
+			}
+		}
+		
+
+		
+		"abeatbyKai34"
+		{
+			"1"
+			{
+			"name"			"abeatbyKai"
+			"tall" 			"34"
+			"weight" 		"900"
+			"antialias" 	"1"
+			}
+		}
+		
 		
 		"Cafe8"
 		{
@@ -8847,7 +8865,7 @@ Scheme
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	CustomFontFiles
-	//Codexa: Ayyy fixed the problem with the hexagon font. was not pointing to font directory.
+	
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
@@ -9005,7 +9023,7 @@ Scheme
 
 		"26"
 		{
-			"font" "resource/fonts/Strasua-Regular.ttf"
+			"font" "resource/fonts/strasuaregular.ttf"
 			"name" "Strasua-Regular"
 		}
 	

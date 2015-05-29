@@ -90,7 +90,7 @@
 		"fieldName"		"TargetNameLabel"
 		"font"			"NeouB14"
 		"xpos"			"50"
-		"ypos"			"5"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"15"
