@@ -282,12 +282,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ScreenshotPanel"
-		"xpos"			"c-83"
-		"ypos"			"50"
+		"xpos"			"-9999"
+		"ypos"			"-9999"
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
 		"visible"		"0"
+		"enabled"		"0"
 			
 		"ScreenshotPanelBG"
 		{
@@ -303,20 +304,7 @@
 			"image"			"../hud/freezecam_black_bg"
 			"scaleImage"		"1"
 		}
-		"ScreenshotPanelBGCustom"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"ScreenshotPanelBGCustom"
-			"xpos"			"0"
-			"ypos"			"8"
-			"zpos"			"0"
-			"wide"			"166"
-			"tall"			"26"
-			"visible"		"1"
-			"enabled"		"1"
-			"fillcolor"     "32 32 32 200"
-	     	"scaleImage"	"1"	
-		}
+
 		"ScreenshotIcon"
 		{
 			"ControlName"		"ImagePanel"
@@ -326,8 +314,8 @@
 			"zpos"			"1"
 			"wide"			"36"
 			"tall"			"36"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/ico_camera"
 			"scaleImage"	"1"	
 		}		
@@ -343,8 +331,8 @@
 			"tall"			"12"
 			"autoResize"		"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"labelText"		"%text%"
 			"textAlignment"		"west"
 			"dulltext"		"0"

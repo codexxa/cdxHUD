@@ -58,7 +58,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"			"Cafe16"
+		"font"			"Strasua16"
 		"fgcolor"		"eWhite"
 		"xpos"					"15"
 		"ypos"					"0"
@@ -91,7 +91,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Cafe16"
+		"font"					"Strasua16"
 		"fgcolor"               "eWhite"
 	}
 }

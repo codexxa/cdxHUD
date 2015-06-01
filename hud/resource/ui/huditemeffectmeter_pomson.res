@@ -1,36 +1,59 @@
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
+	
+	"ayyy"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ayyy"
+		"xpos"					"340"
+		"ypos"					"200"
+		"zpos"					"6"
+		"wide"					"175"
+		"tall"					"12"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"Don't use the pomson."
+		"textAlignment"			"west"
+		"font"					"NeouB16"
+		"fgcolor_override"		"255 255 255 255"
+	}
+	
+	"lmao"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"lmao"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"		
+		"wide"			"1920"
+		"tall"			"1080"
+		"visible"		"1"
+		"enabled"		"1"		
+		"fillcolor"		"0 0 0 255"
+	
+	}
+
+	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-62"
-		"ypos"			"r113"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"125"
-		"tall"			"6"
+		"wide"			"1920"
+		"tall"			"1080"
 		"MeterFG"		"White"
 		"MeterBG"		"eBlack"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"0"		
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"				
-	}
+
 	
-	"ItemEffectMeterLabel"
+	"ItemEffectMeterLabel2"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
+		"fieldName"				"ItemEffectMeterLabel2"
 		"xpos"					"65"
 		"ypos"					"0"
 		"zpos"					"2"
@@ -38,10 +61,10 @@
 		"tall"					"12"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"Don't use the pomson."
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -57,8 +80,8 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"2"
-		"wide"					"125"
-		"tall"					"8"				
+		"wide"					"0"
+		"tall"					"0"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

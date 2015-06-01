@@ -1,0 +1,40 @@
+
+_Features
+
+	cdxHUD was designed to have a stylish, but minimal design for clarity in the competitive 9v9 and 6v6 scenes.
+	It removes visual clutter and emphasises elements that are important to gameplay.
+
+	Inspired by the stylish visuals of EJP, the Boldness of Garm3n 4MP, and the minimalism of oxide.
+
+	In-game HUD:
+		-Large Health, Ammo, and damage numbers for clarity
+		-Subtle Overheal pulse
+		-Attention-grabbing pulse for low ammo and health
+		-Small, centered charge meters
+
+	Scoreboard:
+		-Features both 9v9 and 6v6 format
+		-Removes unimportant stats for less visual clutter
+		-Large KDA numbers	
+		-Player Deaths are highlighted in red, drawing more attention to how often the player is dying
+
+	Main Menu:
+		-Your steam name featured at the top of the menu
+		-Lovely backdrop by some guy
+		-Removal of less important buttons
+
+	Make it your own:
+		-Includes instruction to customize:
+			*Colours of your damage numbers
+			*Shadow options for health and ammo numbers
+			*overheal Cross
+		-Pulsing crosshairs included
+
+	Optimized:
+		cdxHUD strives for clean code.
+		Files are always checked for syntax errors, preventing possible stuttering that may occur as a result.
+
+
+_Customization
+
+	

@@ -24,8 +24,8 @@
 		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
@@ -61,7 +61,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultVerySmall"
-			"xpos"			"60"
+			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"200"
 			"tall"			"31"
@@ -71,6 +71,7 @@
 			"enabled"		"1"
 			"labelText"		"#Building_hud_tele_not_built"
 			"textAlignment"	"Left"
+
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

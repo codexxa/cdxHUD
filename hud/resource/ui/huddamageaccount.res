@@ -4,7 +4,7 @@
 	CDamageAccountPanel
 	{
 		"fieldName"				"CDamageAccountPanel"
-		"xpos"					"0"
+		"xpos"					"20"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
@@ -15,7 +15,7 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 175 255 255"
-		"NegativeColor"			"160 230 30 255"
+		"NegativeColor"			"cdxDmgNums"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"strasua24"
 		"delta_item_font_big"	"strasua24"
@@ -24,8 +24,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CDamageAccountValue"
-		"font"			"strasua28"
-		"fgcolor"		"160 230 30 255" //cdxGreen
+		"font"			"strasua20"
+		"fgcolor"		"cdxDmgNums" //cdxGreen
 		"xpos"			"200"  //c-150
 		"ypos"			"r120"  //r90
 		"zpos"			"5"

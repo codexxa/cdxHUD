@@ -1,26 +1,17 @@
 "Resource/UI/HudAccountPanel.res"
 {
-	CHudAccountPanel
-	{
-		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c207"
-		"ypos"					"r110"
-		"wide"					"100"
-		"tall"  				"20"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
-	}
+
 	
 	"CHudAccountPanel"
 	{
-		"delta_item_x"			"60"
-		"delta_item_start_y"	"1"
-		"delta_item_end_y"		"1"
-		"PositiveColor"			"eBlue"
+		"delta_item_x"			"50"
+		"delta_item_start_y"	"15"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"103 248 16 255"
 		"NegativeColor"			"eRed"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Cafe16"
+		"delta_item_font"		"Strasua16"
+		"textAlignment"			"left"
 	}
 	
 	"AccountBG"
@@ -67,11 +58,11 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"%metal%"
-		"textAlignment"	"center"
+		"textAlignment"	"left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Cafe16"
-		"fgcolor"		"eWhite"
+		"font"			"Strasua20"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"FullBG"
@@ -83,6 +74,6 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"0"
-		"fillcolor"		"eBlueT"
+		"fillcolor"		"103 248 16 255"
 	}
 }

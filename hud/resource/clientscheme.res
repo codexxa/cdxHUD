@@ -18,6 +18,28 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+
+		//CUSTOMIZE DAMAGE NUMBERS
+		//Below, you should see "cdxDmgNums" followed by a series of numbers in quotations.
+		//To change them, change the first 3 numbers by picking a colour in RBG format.
+		//The 4th number, (255) should remain unchanged unless you want to change the transparency(alpha)
+		
+		//Damage Numbers
+		"cdxDmgNums"		"160 230 30 255" //cdxHUD Default: 160 230 30 255
+
+
+		//cdxHUD colours. Going to go over this list later and remove unused colour variables.
+		
+		"cdxRed"			"255 255 255 255" //Red Team Colours
+		"cdxBlu"			"255 255 255 255" //Blu team colours
+		"cdxOverheal"		"0 175 255 255" //Light blue, associated with health and overheal
+		//"cdxOverhealPulse"
+		//"cdxRedPulse"
+				
+		
+		
+
+	
 		// custom colors
 		"eBlue"				"0 135 215 255"
 		"eBlueT"			"0 135 215 150"

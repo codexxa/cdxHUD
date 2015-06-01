@@ -774,18 +774,17 @@
 		"NumberFont" "HudSelectionText"
 	}	
 	
-	CHealthAccountPanel
+	CHudAccountPanel
 	{
-		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"c-230"
-		"ypos"					"r150"
+		"fieldName"				"CHudAccountPanel"
+		"xpos"					"c207"
+		"ypos"					"r110"
 		"wide"					"100"
-		"tall"  				"50"
+		"tall"  				"500"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
 	}
-	
 	DisguiseStatus
 	{
 		"fieldName" "DisguiseStatus"
@@ -856,8 +855,6 @@
 		"enabled"	"1"
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
-		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -869,8 +866,12 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
-		"ypos"		"-50"
+		"xpos"		"-20"
+		"xpos_hidef"		"32"
+		"xpos_lodef"		"40"
+		"ypos"		"0"
+		"ypos_hidef"		"16"
+		"ypos_lodef"		"25"
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -1052,22 +1053,23 @@
 		"wide"	 "628"
 		"tall"	 "468"
 
-		"MaxDeathNotices" "6"
+		"MaxDeathNotices" "4"
 		"IconScale"	  "0.10"
-		"LineHeight"	  "13"
+		"LineHeight"	  "11"
 		"LineSpacing"	  "2"
-		"CornerRadius"	  "1"
+		"CornerRadius"	  "4"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Gotham-Medium11"
+		"TextFont"		"default"
 		
-		"TeamBlue"		"eBlue" 	// HUDBlueTeamSolid
-		"TeamRed"		"eRed" 	// HUDRedTeamSolid
+		"TeamBlue"		"79 135 171 230" 	
+		"TeamRed"		"199 40 44 230" 
 		"IconColor"		"HUDWhite"			// HudWhite
 		"LocalPlayerColor"	"48 59 63 255" 		// HUDBlack
 
 		"BaseBackgroundColor"	"48 59 63 160"
 		"LocalBackgroundColor"	"eWhite"
+	
 	}
 	
 	HudVehicle
@@ -1464,7 +1466,7 @@
 		"fieldName"				"FreezePanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"-5"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
@@ -1934,4 +1936,68 @@
 		"wide"	"f0"
 		"tall"	"480"
 	}
+	//missing entries fixed
+	//so much for clean code 
+	HudMedicCharge
+	{
+		"fieldName"		"HudMedicCharge"
+		"visible"		"1"
+		"enabled"		"1"
+
+	}
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	HudDemomanPipes
+	{
+		"fieldName"		"HudDemomanPipes"
+	}
+	
+	CHudDemomanChargeMeter
+	{
+		"fieldName"		"CHudDemomanChargeMeter"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	HudDemomanCharge
+	{
+		"fieldName"		"HudDemomanCharge"
+	}
+	
+	CTFStreakNotice
+	{
+		"fieldName"		"CTFStreakNotice"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	CTFHudWeaponAmmo
+	{
+		"fieldName"		"CTFHudWeaponAmmo"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	HudWeaponAmmo
+	{
+		"fieldName"		"HudWeaponAmmo"
+		
+	}
+	
+	CDamageAccountPanel
+	{
+		"fieldName"		"CDamageAccountPanel"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
+	CHudAccountPanel
+	{
+		"fieldName"		"CHudAccountPanel"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 }

@@ -50,8 +50,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"99999"
-		"ypos"			"99999"
+		"xpos"			"-99999"
+		"ypos"			"-99999"
 		"zpos"			"0"
 		"wide"			"58"
 		"tall"			"58"
@@ -153,22 +153,7 @@
                 "fgcolor"               "255 255 255 255"
         }
 		
-        //"PlayerStatusHealthValueShadow" //PLAYER HEALTH SHADOW
-        //{
-        //        "ControlName"   "CExLabel"
-        //        "fieldName"             "PlayerStatusHealthValueShadow"
-        //        "xpos"                  "131"
-        //        "ypos"                  "7"      
-        //        "zpos"                  "4"
-        //        "wide"                  "100"
-        //        "tall"                  "50"
-        //      "visible"               "1"
-        //        "enabled"               "1"
-        //        "labelText"             "%Health%"
-        //      "textAlignment"         "left"       
-        //  "font"                  "strasua48" 
-        //    "fgcolor"               "0 0 0 0" //Garm3nHUDBlue
-        //}
+
     
         "HealthLabel"
         {

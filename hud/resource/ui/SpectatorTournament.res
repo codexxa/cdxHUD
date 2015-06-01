@@ -9,6 +9,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
+
 		
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"200"
@@ -28,8 +29,8 @@
 			"zpos"			"-1"
 
 			"paintborder"	"1"
-			"color_ready"	"0 255 0 220"
-			"color_notready"	"0 0 0 220"
+			"color_ready"	"0 255 0 100"
+			"color_notready"	"0 0 0 150"
 
 			"BGLeft"
 			{
@@ -42,15 +43,15 @@
 				"tall"        "14"
 				"autoResize"		"0"
 				"pinCorner"		"0"
-				"fillcolor"		"234 234 234 50"
+				"fillcolor"		"234 234 234 200"
 				"visible"			"0"
-				"enabled"			"1"
+				"enabled"			"0"
 			}
 			"BG"
 			{
 				"ControlName" "ImagePanel"
 				"fieldName"   "BG"
-				"xpos"        "22"
+				"xpos"        "18"
 				"ypos"        "0"
 				"zpos"        "-1000"
 				"wide"        "110"
@@ -92,7 +93,7 @@
 				"fillcolor"		"234 234 234 255"
 				"alpha"			"255"
 				"visible"			"0"
-				"enabled"			"1"
+				"enabled"			"0"
 			}
 			"BorderDown"
 			{
@@ -108,7 +109,7 @@
 				"fillcolor"		"234 234 234 255"
 				"alpha"			"255"
 				"visible"			"0"
-				"enabled"			"1"
+				"enabled"			"0"
 			}
 			"BGClass"
 			{
@@ -123,17 +124,17 @@
 				"pinCorner"		"0"
 				"fillcolor"		"32 32 32 100"
 				"visible"			"0"
-				"enabled"			"1"
+				"enabled"			"0"
 			}
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"playername"
-				"font"		"abeat8"
-				"xpos"			"43"
+				"font"		"NeouB12"
+				"xpos"			"20"
 				"ypos"			"4"
 				"zpos"			"5"
-				"wide"			"87"		//62
+				"wide"			"90"		//62
 				"tall"			"13"
 				"autoResize"	"0"
 				"pinCorner"		"0"
@@ -152,11 +153,11 @@
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"24"
+				"xpos"			"0"
 				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"13"
-				"tall"			"13"
+				"wide"			"18"
+				"tall"			"18"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -178,7 +179,7 @@
 				"wide"			"18"
 				"tall"			"18"
 				"visible"		"0"
-				"enabled"		"1"
+				"enabled"		"0"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
 				
@@ -301,16 +302,16 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"chargeamount"
-				"font"		"abeat8"
-				"xpos"			"-3"
+				"font"		"museo10"
+				"xpos"			"100"
 				"ypos"			"4"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"center"
-				"fgcolor"		"White"
+				"textAlignment"	"right"
+				"fgcolor"		"105 239 23 255"
 			}
 
 			"specindex"

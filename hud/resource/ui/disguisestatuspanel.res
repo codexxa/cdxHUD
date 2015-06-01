@@ -28,30 +28,17 @@
 			"angles_z"		"0"
 		}
 	}
-	
-	"DisguiseBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"			"DisguiseBG"
-		"xpos"				"251"
-		"ypos"				"74"
-		"zpos"				"0"
-		"wide"				"99"
-		"tall"				"25"
-		"visible"			"1"
-		"enabled"			"1"
-		"fillcolor"			"eWhite"
-	}	
+
 	
 	"DisguiseStatusBG"
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusBG"
-		"xpos"			"350"
-		"ypos"			"74"
-		"zpos"			"3"
-		"wide"			"6"
-		"tall"	 		"25"
+		"xpos"				"251"
+		"ypos"				"74"
+		"zpos"			"0"
+		"wide"				"99"
+		"tall"				"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -69,14 +56,16 @@
 			
 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"0"	
+		
+		"alpha"	"210"
 	}
 
 	"DisguiseNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"					"abeat10"
-		"fgcolor_override"		"eBlack"
+		"font"					"neouB12"
+		"fgcolor_override"		"255 255 255 255"
 		"xpos"			"255"
 		"ypos"			"76"
 		"zpos"			"1"
@@ -96,8 +85,8 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"abeat10"
-		"fgcolor_override"	"eBlack"
+		"font"			"neouB12"
+		"fgcolor_override"	"255 255 255 255"
 		"xpos"			"255"
 		"ypos"			"87"
 		"zpos"			"1"
