@@ -202,7 +202,8 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"strasua18" //no pipes
-			"fgcolor"	"255 255 255 255"
+			"fgcolor"	"255 255 255 0"
+			"alpha"		"0"
 		}
 		"NumPipesLabelDropshadow"
 		{

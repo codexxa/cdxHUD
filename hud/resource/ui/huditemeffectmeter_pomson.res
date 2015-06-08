@@ -1,30 +1,13 @@
 "Resource/UI/HudItemEffectMeter_Pomson.res"
 {
-	
-	"ayyy"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ayyy"
-		"xpos"					"340"
-		"ypos"					"200"
-		"zpos"					"6"
-		"wide"					"175"
-		"tall"					"12"
-		"visible"				"1"
-		"enabled"				"1"
-		"labelText"				"Don't use the pomson."
-		"textAlignment"			"west"
-		"font"					"NeouB16"
-		"fgcolor_override"		"255 255 255 255"
-	}
-	
-	"lmao"
+
+	"ayy"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"lmao"
+		"fieldName"		"ayy"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"2"		
+		"zpos"			"0"		
 		"wide"			"1920"
 		"tall"			"1080"
 		"visible"		"1"
@@ -32,13 +15,35 @@
 		"fillcolor"		"0 0 0 255"
 	
 	}
-
+	
+	"lmao"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"lmao"
+		"xpos"					"340"
+		"ypos"					"200"
+		"zpos"					"0"
+		"wide"					"175"
+		"tall"					"12"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"Don't use the pomson."
+		"textAlignment"			"west"
+		"dulltext"				"0"
+		"brighttext"			"1"
+		"font"					"NeouB16"
+		"fgcolor"				"255 255 255 255"
+		"fgcolor_override"		"255 255 255 255"
+	}
 	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"5"
@@ -49,28 +54,6 @@
 	}
 	
 
-	
-	"ItemEffectMeterLabel2"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel2"
-		"xpos"					"65"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"175"
-		"tall"					"12"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"Don't use the pomson."
-		"textAlignment"			"west"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"NeouB10"
-		"fgcolor_override"		"eBlack"
-	}
 
 	"ItemEffectMeter"
 	{	

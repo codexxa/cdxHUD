@@ -204,13 +204,10 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate PlayerStatusHealthValueShadow	FgColor		"0 90 130 255"		Accel 0.0 0.0
+
 
 	Animate	PlayerStatusHealthValue 	FgColor		"0 175 255 255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthValue 	FgColor		"0 155 255 255"			Linear 0.2 0.4
-
-	Animate	PlayerStatusHealthValue2 	FgColor		"0 175 255 255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthValue2 	FgColor		"0 150 255 255"			Linear 0.2 0.4
 
 
 	RunEvent HudHealthBonusPulseLoop	0.4
@@ -281,8 +278,8 @@ event HudHealthDyingPulseStop
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
+	//Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
+	//Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
 
 	Animate	AmmoInClip		FgColor		"255 15 15 255"		Linear 0.0 0.075
 	Animate	AmmoInClip		FgColor		"215 15 15 255"			Linear 0.125 0.075

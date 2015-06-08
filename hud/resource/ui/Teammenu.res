@@ -467,12 +467,13 @@
 		"zpos"			"-1"
 		"wide"			"112"
 		"tall"			"58"
-		"fillcolor"		"eBlueT"
+		"fillcolor"		"79 135 171 127"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
 	"BlueBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -484,7 +485,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"		"1"
 
@@ -536,18 +537,21 @@
 	"RedBGShade"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BlueBGShade"
+		"fieldName"		"RedBGShade"
 		"xpos"			"c1"
 		"ypos"			"c-29"
 		"zpos"			"-1"
 		"wide"			"112"
 		"tall"			"58"
-		"fillcolor"		"eRedT"
+		"fillcolor"		"199 40 44 170"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 	}
+	
+	
+	
 	"RedBG"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -559,7 +563,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/score_panel_red_bg"
 		"scaleImage"		"1"
 

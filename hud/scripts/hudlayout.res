@@ -1422,10 +1422,12 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"c-90" //c-150
+		"ypos"					"c50"
+		//"wide"					"300" //300
+		//"tall"					"300" //300
+		"wide"			"180"
+		"tall"			"90"
 	}
 
 	ArenaWinPanel
@@ -1977,8 +1979,7 @@
 	CTFHudWeaponAmmo
 	{
 		"fieldName"		"CTFHudWeaponAmmo"
-		"visible"		"1"
-		"enabled"		"1"
+
 	}
 	HudWeaponAmmo
 	{
@@ -1989,15 +1990,13 @@
 	CDamageAccountPanel
 	{
 		"fieldName"		"CDamageAccountPanel"
-		"visible"		"1"
-		"enabled"		"1"
+
 	}
 	
 	CHudAccountPanel
 	{
 		"fieldName"		"CHudAccountPanel"
-		"visible"		"1"
-		"enabled"		"1"
+
 	}
 	
 }

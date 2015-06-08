@@ -27,7 +27,6 @@ _Features
 		-Includes instruction to customize:
 			*Colours of your damage numbers
 			*Shadow options for health and ammo numbers
-			*overheal Cross
 		-Pulsing crosshairs included
 
 	Optimized:

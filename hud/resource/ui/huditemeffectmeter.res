@@ -55,7 +55,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"15"
 		"zpos"					"2"
 		"wide"					"50"
 		"tall"					"4"				

@@ -5,29 +5,13 @@
                 "fieldName" "HudWeaponAmmo" 
                 "visible"   "1"
                 "enabled"   "1"
-                "xpos"      "c90"
+                "xpos"      "c95"
                 "ypos"      "r100" 
                 "zpos"      "2"
                 "wide"      "300"
                 "tall"      "200"
         }
-       
-        "AmmoLabel"
-        {
-                "ControlName"   "Label"
-                "fieldName"             "AmmoLabel"
-                "xpos"                  "0"
-                "ypos"                  "45"
-                "zpos"                  "5"
-                "wide"                  "100"
-                "tall"                  "20"
-                "visible"               "0"
-                "enabled"               "0"
-                "labeltext"             "AMMO"
-                "textalignment" "center"
-                "font"                  "strasua28" //ChampagneB18
-                "fgcolor_override"              "eWhite"
-        }
+
        
         "HudWeaponAmmoBG"
         {
@@ -65,31 +49,36 @@
                 "visible"               "1"
                 "enabled"               "1"
                 "labelText"             "%Ammo%"
-                "textAlignment" "left" 
+                "textAlignment" 		"left" 
                 "font"                  "strasua48"
                 "fgcolor"               "255 255 255 255"
                
-        }              
-        "AmmoInClipShadow"
+        }         
+		
+		"AmmoInClipShadow"
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "AmmoInClipShadow"
-                "font"                  "HudFontGiantBold"
-                "fgcolor"               "Blank"
-                "xpos"                  "5"
-                "ypos"                  "1"
-                "zpos"                  "5"
-                "wide"                  "55"
-                "tall"                  "40"
-                "visible"               "0"
-                "enabled"               "1"
-                "textAlignment" "south-east"   
+                "xpos"                  "2"
+                "ypos"                  "1"      
+                "zpos"                  "4"
+                "wide"                  "100"
+                "tall"                  "50"
+				
+				//To enable, set visible and enabled to 1.
+                "visible"               "0"	//Set to 1
+                "enabled"               "0"	//Set to 1
+				
                 "labelText"             "%Ammo%"
-               
-        }                                              
+                "textAlignment" "left" 
+                "font"                  "strasua48"
+                "fgcolor"               "32 32 32 255"
+				"alpha"					"0"
+        } 
+
         "AmmoInReserve"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserve"
                 "xpos"                  "50"
                 "ypos"                  "19"
@@ -98,27 +87,35 @@
                 "tall"                  "30"
                 "visible"               "0"
                 "enabled"               "1"
-                "textAlignment" "left"           
+                "textAlignment" 		"left"           
                 "labelText"             "%AmmoInReserve%"
                 "font"                  "strasua28"
                 "fgcolor"               "255 255 255 255"
-        }              
-        "AmmoInReserveShadow"
+        }
+
+		"AmmoInReserveShadow"
         {
-                "ControlName"   "CExLabel"
+                "ControlName"   		"CExLabel"
                 "fieldName"             "AmmoInReserveShadow"
-                "font"                  "HudFontMediumSmall"
-                "fgcolor"               "Blank"
-                "xpos"                  "60"
-                "ypos"                  "9"
-                "zpos"                  "7"
-                "wide"                  "40"
-                "tall"                  "27"
-                "visible"               "0"
-                "enabled"               "1"
-                "textAlignment" "south-west"           
+                "xpos"                  "51"
+                "ypos"                  "20"
+                "zpos"                  "6"
+                "wide"                  "100"
+                "tall"                  "30"
+				
+				//To enable the shadow, set visible and enabled to 1.
+                "visible"               "0"	//Set to 1
+                "enabled"               "0"	//Set to 1
+				
+                "textAlignment" 		"left"           
                 "labelText"             "%AmmoInReserve%"
-        }                                                                      
+                "font"                  "strasua28"
+                "fgcolor"               "32 32 32 255"
+				"alpha"					"0"
+        }              
+
+
+		
         "AmmoNoClip"
         {
                 "ControlName"   "CExLabel"

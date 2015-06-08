@@ -1,7 +1,7 @@
 "Resource/UI/HudPlayerHealth.res"
 {      
         // player health data
-        "HudPlayerHealth"
+    "HudPlayerHealth"
         {
                 "ControlName"   "EditablePanel"
                 "fieldName"             "HudPlayerHealth"
@@ -16,109 +16,110 @@
                 "HealthDeathWarning"    "0.49"
                 "HealthDeathWarningColor"       "HUDDeathWarning"
         }      
-        "PlayerStatusHealthImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"zpos"			"4"
+    "PlayerStatusHealthImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthImage"
+			"visible"		"0"
+			"enabled"		"0"
+			"scaleImage"	"1"	
+			"zpos"			"4"
 
-		"xpos"			"90"
-		"ypos"			"36"		
-		"wide"			"50"
-		"tall"			"50"
-	}		
-	"PlayerStatusHealthImageBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"1"
-		"zpos"			"3"
+			"xpos"			"90"
+			"ypos"			"36"		
+			"wide"			"50"
+			"tall"			"50"
+		}		
+	"PlayerStatusHealthImageBG" 
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthImageBG"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../hud/health_bg"
+			"scaleImage"	"1"
+			"zpos"			"3"
+			
+			"xpos"			"99999"
+			"ypos"			"99999"
+			"wide"			"56"
+			"tall"			"56"	
+		}
+	
+	"PlayerStatusHealthBonusImage" //health cross bonus - Work on this later, need to fix the positioning of hudplayerhealth...
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"PlayerStatusHealthBonusImage"
+			"xpos"                  "9999"	//150
+			"ypos"                  "9999"   //10   
+			"zpos"                  "0"
+			"wide"			"40"
+			"tall"			"40"
+			"visible"		"0"
+			"enabled"		"0"
+			"image"			"../hud/health_over_bg"
+			"scaleImage"	"1"	
+		}
 		
-		"xpos"			"99999"
-		"ypos"			"99999"
-		"wide"			"56"
-		"tall"			"56"	
-	}
-	
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"-99999"
-		"ypos"			"-99999"
-		"zpos"			"0"
-		"wide"			"58"
-		"tall"			"58"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
-	}
-	
 	"PlayerStatusClassImageBG"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"PlayerStatusClassImageBG"
-		"xpos"				"74"
-		"ypos"				"31"
-		"zpos"				"-1"
-		"wide"				"24"
-		"tall"	 			"60"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"			"PlayerStatusClassImageBG"
+			"xpos"				"74"
+			"ypos"				"31"
+			"zpos"				"-1"
+			"wide"				"24"
+			"tall"	 			"60"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"0"
+			"enabled"			"0"
+			"image"				"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"			"../hud/color_panel_brown"
+			"teambg_2"			"../hud/color_panel_red"
+			"teambg_3"			"../hud/color_panel_blu"
+			
+			"src_corner_height"			"40"		// pixels inside the image
+			"src_corner_width"			"40"			
+			"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"0"	
+			
+			//"xpos_minmode"				"76"
+			//"ypos_minmode"				"33"
+			//"wide_minmode"				"22"
+			//"tall_minmode"	 			"58"
+		}
 		
-		"src_corner_height"			"40"		// pixels inside the image
-		"src_corner_width"			"40"			
-		"draw_corner_width"			"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-		
-		//"xpos_minmode"				"76"
-		//"ypos_minmode"				"33"
-		//"wide_minmode"				"22"
-		//"tall_minmode"	 			"58"
-	}
 	"PlayerStatusClassImageBG2"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"			"PlayerStatusClassImageBG2"
-		"xpos"				"56"
-		"ypos"				"49"
-		"zpos"				"-1"
-		"wide"				"60"
-		"tall"	 			"24"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"image"				"../hud/color_panel_brown"
-		"scaleImage"		"1"
-		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../hud/color_panel_red"
-		"teambg_3"			"../hud/color_panel_blu"
-		
-		"src_corner_height"			"40"				// pixels inside the image
-		"src_corner_width"			"40"			
-		"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 		"0"	
-		
-		//"xpos_minmode"				"58"
-		//"ypos_minmode"				"51"
-		//"wide_minmode"				"58"
-		//"tall_minmode"	 			"22"
-	}
+		{
+			"ControlName"		"CTFImagePanel"
+			"fieldName"			"PlayerStatusClassImageBG2"
+			"xpos"				"56"
+			"ypos"				"49"
+			"zpos"				"-1"
+			"wide"				"60"
+			"tall"	 			"24"
+			"autoResize"		"0"
+			"pinCorner"			"0"
+			"visible"			"0"
+			"enabled"			"0"
+			"image"				"../hud/color_panel_brown"
+			"scaleImage"		"1"
+			"teambg_1"			"../hud/color_panel_brown"
+			"teambg_2"			"../hud/color_panel_red"
+			"teambg_3"			"../hud/color_panel_blu"
+			
+			"src_corner_height"			"40"				// pixels inside the image
+			"src_corner_width"			"40"			
+			"draw_corner_width"			"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 		"0"	
+			
+			//"xpos_minmode"				"58"
+			//"ypos_minmode"				"51"
+			//"wide_minmode"				"58"
+			//"tall_minmode"	 			"22"
+		}
     
      "BoltLabel"
     {
@@ -151,6 +152,27 @@
                 "textAlignment"         "left"       
                 "font"                  "strasua48" 
                 "fgcolor"               "255 255 255 255"
+        }
+		
+		"PlayerStatusHealthValueShadow" //Shadow behind player's health
+        {
+                "ControlName"   "CExLabel"
+                "fieldName"             "PlayerStatusHealthValueShadow"
+                "xpos"                  "131"
+                "ypos"                  "7"      
+                "zpos"                  "4"
+                "wide"                  "100"
+                "tall"                  "50"
+				
+				//To enable the shadow, set visible and enabled to 1.
+				
+                "visible"               "0"	//Set to 1
+                "enabled"               "0"	//Set to 1
+				
+                "labelText"             "%Health%"
+                "textAlignment"         "left"       
+                "font"                  "strasua48" 
+                "fgcolor"               "32 32 32 255"
         }
 		
 

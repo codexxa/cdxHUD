@@ -108,12 +108,10 @@
 		"fillcolor"		"eBlue"
 		"PaintBackgroundType"	"0"
 	}
-
-	  
-	"PlayerStatusHealthValue2"
+	"PlayerStatusHealthValue"
 	{	
 		"ControlName"		"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue2"
+		"fieldName"		"PlayerStatusHealthValue"
 		"xpos"			"130"
 		"ypos"			"3"
 		"zpos"			"6"
@@ -122,7 +120,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labeltext"		"%Health%"
-		"textAlignment"		"east"
+		"textAlignment"		"center"
 		"font"			"strasua14"
-      }		  
-}
+      }		
+

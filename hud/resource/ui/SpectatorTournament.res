@@ -47,22 +47,7 @@
 				"visible"			"0"
 				"enabled"			"0"
 			}
-			"BG"
-			{
-				"ControlName" "ImagePanel"
-				"fieldName"   "BG"
-				"xpos"        "18"
-				"ypos"        "0"
-				"zpos"        "-1000"
-				"wide"        "110"
-				"tall"        "18"
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"fillcolor"		"32 32 32 255"
-				"alpha"			"255"
-				"visible"			"1"
-				"enabled"			"1"
-			}
+
 			"BGRight"
 			{
 				"ControlName" "ImagePanel"
@@ -107,7 +92,7 @@
 				"autoResize"		"0"
 				"pinCorner"		"0"
 				"fillcolor"		"234 234 234 255"
-				"alpha"			"255"
+				"alpha"			"50"
 				"visible"			"0"
 				"enabled"			"0"
 			}
@@ -141,7 +126,7 @@
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"255 255 255 245"
+				"fgcolor"		"255 255 255 200"
 
 				if_mvm
 				{
@@ -260,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"respawntime"
-				"font"		"abeat10"		
+				"font"		"Strasua12"		
 				"xpos"			"133"
 				"ypos"			"4"
 				"zpos"			"7"
@@ -271,7 +256,7 @@
 				"visible"		"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
-				"fgcolor"		"eBlue"
+				"fgcolor"		"90 90 90 255"
 
 				if_mvm
 				{
@@ -302,9 +287,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"	"chargeamount"
-				"font"		"museo10"
-				"xpos"			"100"
-				"ypos"			"4"
+				"font"		"museo8"
+				"xpos"			"0"
+				"ypos"			"8"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
@@ -344,28 +329,7 @@
 		}		
 	}
 
-	"topbar"
-	{
-		"ControlName"	"Panel"
-		"fieldName"		"TopBar"
-		"visible"		"0"
-		"tall"			"0"
-	}
-	"BottomBar"
-	{
-		"ControlName"	"Frame"
-		"fieldName"		"BottomBar"
-		"visible"		"0"
-		"ypos"			"100"
-		"tall"			"0"
-	}
-	"bottombarblank"
-	{
-		"ControlName"		"Panel"
-		"fieldName"		"bottombarblank"
-		"visible"		"0"
-		"ypos"			"480"
-	}
+
 	"ReinforcementsLabel"
 	{
 		"ControlName"		"CExLabel"
