@@ -18,160 +18,7 @@
 	// value, White being '255 255 255 255" and Black "0 0 0 255".
 	/////////////////////////////////////////////////////////////////////////////
 	
-	SlyCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"SlyCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"a"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}	
-	
-	BastCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"BastCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"d"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}	
-	
-	DotCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"DotCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"c"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}	
-	
-	PointyCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"PointyCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"h"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}
-	
-	XCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"XCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"i"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}
-	
-	XDotCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"XDotCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"j"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}
-	
-	KonrCrosshair
-	{
-		"controlName"				"CExLabel"
-		"fieldName"	 				"KonrCrosshair"
-		"visible"					"0"
-		"enabled"					"0"
-		"zpos"						"2"
-			
-		"xpos"						"c-99"
-		"ypos"						"c-99"
-		"wide"						"200"
-		"tall"						"200"
-			
-		//"font"					"EJPCrosshairs32Outline"
-		"font"						"EJPCrosshairs32"
-		"labelText"					"f"
-		"textAlignment"				"center"
-		"outline"					"1"
-					
-		"fgcolor"					"eBlue"
-	}	
-	
+
 	
 	ScatterSpread
 	{
@@ -192,7 +39,7 @@
 		"textAlignment"				"center"
 		"outline"					"1"
 					
-		"fgcolor"					"eBlue"
+		"fgcolor"					"0 255 0 255"
 	}		
 			
 	BasicCross		
@@ -318,7 +165,7 @@
 		"labelText"					"9"
 		"textAlignment"				"center"	
 				
-		"fgcolor"					"eBlue"
+		"fgcolor"					"255 255 255 255"
 	}		
 			
 	WingsPlus		

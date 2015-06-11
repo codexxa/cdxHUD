@@ -51,7 +51,7 @@
                 "labelText"             "%Ammo%"
                 "textAlignment" 		"left" 
                 "font"                  "strasua48"
-                "fgcolor"               "255 255 255 255"
+                "fgcolor"               "cdxAmmoClip"
                
         }         
 		
@@ -64,15 +64,15 @@
                 "zpos"                  "4"
                 "wide"                  "100"
                 "tall"                  "50"
-				
-				//To enable, set visible and enabled to 1.
-                "visible"               "0"	//Set to 1
-                "enabled"               "0"	//Set to 1
-				
+                "visible"               "1"
+                "enabled"               "1"
                 "labelText"             "%Ammo%"
                 "textAlignment" "left" 
                 "font"                  "strasua48"
-                "fgcolor"               "32 32 32 255"
+                "fgcolor"               "cdxAmmoShadow"
+				
+				//To enable the shadow, set alpha to 255.
+				//To Disable, set to 0
 				"alpha"					"0"
         } 
 
@@ -85,12 +85,12 @@
                 "zpos"                  "7"
                 "wide"                  "100"
                 "tall"                  "30"
-                "visible"               "0"
+                "visible"               "1"
                 "enabled"               "1"
                 "textAlignment" 		"left"           
                 "labelText"             "%AmmoInReserve%"
                 "font"                  "strasua28"
-                "fgcolor"               "255 255 255 255"
+                "fgcolor"               "cdxAmmoReserve"
         }
 
 		"AmmoInReserveShadow"
@@ -102,15 +102,16 @@
                 "zpos"                  "6"
                 "wide"                  "100"
                 "tall"                  "30"
-				
-				//To enable the shadow, set visible and enabled to 1.
-                "visible"               "0"	//Set to 1
-                "enabled"               "0"	//Set to 1
-				
+                "visible"               "1"	
+                "enabled"               "1"
                 "textAlignment" 		"left"           
                 "labelText"             "%AmmoInReserve%"
                 "font"                  "strasua28"
-                "fgcolor"               "32 32 32 255"
+                "fgcolor"               "cdxAmmoShadow"
+				
+				
+				//To enable the shadow, set alpha to 255.
+				//To Disable, set to 0
 				"alpha"					"0"
         }              
 
@@ -125,31 +126,37 @@
                 "zpos"                  "5"
                 "wide"                  "100"
                 "tall"                  "50"
-                "visible"               "0"
+                "visible"               "1"
                 "enabled"               "1"
                 "textAlignment"         "left"               
                 "labelText"             "%Ammo%"
                 "font"                  "strasua48"
-                "fgcolor"               "255 255 255 255"
+                "fgcolor"               "cdxAmmo"
                
-        }      
-        "AmmoNoClipShadow"
+        }           
+		
+		"AmmoNoClipShadow"
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "AmmoNoClipShadow"
-                "font"                  "HudFontGiantBold"
-                "fgcolor"               "Blank"
-                "xpos"                  "1"
-                "ypos"                  "3"
+                "xpos"                  "2"
+                "ypos"                  "1"      
                 "zpos"                  "5"
-                "wide"                  "84"
-                "tall"                  "40"
+                "wide"                  "100"
+                "tall"                  "50"
                 "visible"               "0"
-                "enabled"               "1"
-                "textAlignment"         "south-east"           
+                "enabled"               "0"
+                "textAlignment"         "left"               
                 "labelText"             "%Ammo%"
+                "font"                  "strasua48"
+                "fgcolor"               "cdxAmmoShadow"
+				
+				//To enable the shadow, set alpha to 255.
+				//To Disable, set to 0
+				"alpha"					"0"
                
-        }
+        }      
+
        
         "FullBG"
         {

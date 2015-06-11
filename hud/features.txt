@@ -1,16 +1,30 @@
+_ATTENTION!
+	cdxHUD is designed around competitive TF2. By downloading and using this HUD, you acknowledge and understand that certain gamemodes and items will not be supported.
+
+_Beta Testers
+
+	Please remember to keep your suggestions objective, rather than personal. It's not possible for me to customize every single person's HUD to their own liking.
+	Although I will be providing a reasonable amount of customization instructions, suggestions such as "I don't like this font" and "x colour is ugly" will not be considered.
+	
+	However, suggestions that are more general or pertaining to visual clarity are more likely to be implemented. Examples of this are:
+	"Can you include damage number customization?"
+	"x background is too transparent, can you make that clearer?"
+	
+	Before submitting your suggestion, ask yourself why you're submitting it. If the reason is because you personally want a small change, it probably won't be considered.
 
 _Features
 
-	cdxHUD was designed to have a stylish, but minimal design for clarity in the competitive 9v9 and 6v6 scenes.
+	cdxHUD was designed to have a stylish, but minimal design for clarity in the competitive 6v6 and 9v9 scenes.
 	It removes visual clutter and emphasises elements that are important to gameplay.
 
-	Inspired by the stylish visuals of EJP, the Boldness of Garm3n 4MP, and the minimalism of oxide.
+	Inspired by the stylish visuals of EJP, the boldness of Garm3n 4MP, and the minimalism of oxide.
 
 	In-game HUD:
 		-Large Health, Ammo, and damage numbers for clarity
 		-Subtle Overheal pulse
 		-Attention-grabbing pulse for low ammo and health
 		-Small, centered charge meters
+		-Smaller kill feed
 
 	Scoreboard:
 		-Features both 9v9 and 6v6 format
@@ -20,20 +34,37 @@ _Features
 
 	Main Menu:
 		-Your steam name featured at the top of the menu
-		-Lovely backdrop by some guy
 		-Removal of less important buttons
+		-Lovely background by KennyG6
 
 	Make it your own:
 		-Includes instruction to customize:
 			*Colours of your damage numbers
+			*Colours of your health/ammo
 			*Shadow options for health and ammo numbers
-		-Pulsing crosshairs included
-
+			*And more, coming soon™
+		
 	Optimized:
 		cdxHUD strives for clean code.
 		Files are always checked for syntax errors, preventing possible stuttering that may occur as a result.
 
 
-_Customization
+_Customization Instructions
+
+	To Enable Health and Ammo Shadows:
+		1. Open hudplayerhealth.res
+		2. ctrl + f "PlayerStatusHealthValueShadow"
+		3. Set visible and enabled to 1.
+		
+		4. Open hudammoweapons.res
+		5. Ctrl + F "AmmoNoClipShadow", "AmmoInReserveShadow", "AmmoInClipShadow"
+		6. Set alpha to 255.
+		
+	To Change your Damage Number or Health/Ammo Colours:
+		1. Go to ClientScheme.res
+		2. Ctrl + F "CUSTOMIZE DAMAGE NUMBERS"
+		3. There will be a set of instructions there.
+		
+	Please remember to keep a backup of your customizations, as you will need to redo these with each HUD update.
 
 	

@@ -122,5 +122,7 @@
 		"labeltext"		"%Health%"
 		"textAlignment"		"center"
 		"font"			"strasua14"
-      }		
+      }
+	  
+}
 

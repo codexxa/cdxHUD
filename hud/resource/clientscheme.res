@@ -20,15 +20,39 @@ Scheme
 	{
 
 		//CUSTOMIZE DAMAGE NUMBERS
-		//Below, you should see "cdxDmgNums" followed by a series of numbers in quotations.
-		//To change them, change the first 3 numbers by picking a colour in RBG format.
+		//Below, you should see the a colour name (e.g. "cdxDmgNums") followed by a series of numbers in quotations.
+		//To change them, change the first 3 numbers by picking a colour in RBG (Red-Green-Blue) format.
 		//The 4th number, (255) should remain unchanged unless you want to change the transparency(alpha)
 		
-		//Damage Numbers
+		//DAMAGE NUMBERS COLOUR
 		"cdxDmgNums"		"160 230 30 255" //cdxHUD Default: 160 230 30 255
 
-
-		//cdxHUD colours. Going to go over this list later and remove unused colour variables.
+		//AMMO COLOURS
+		//Note: The alpha for ammo cannot be changed here because tf2 is weird. If you want to change the alpha go to hudAmmoWeapons.res
+			//cdxAmmoClip: The amount of ammo in your clip. (ie 4 rockets)
+			//cdxAmmoReserve: The amount of ammo in your reserve. (ie 20 rockets)
+			//cdxAmmo: Ammo with no reserve or clip. (Sniper's rifle, Pyro's flamethrower, etc.)
+			
+		"cdxAmmoClip"		"255 255 255 255" //cdxHUD Default: 255 255 255 255
+		"cdxAmmoReserve"	"255 255 255 255" //cdxHUD Default: 255 255 255 255
+		"cdxAmmo"			"255 255 255 255" //cdxHUD Default: 255 255 255 255
+		
+		//HEALTH COLOUR 
+		"cdxHealth"			"255 255 255 255" //cdxHUD Default: 255 255 255 255
+		
+		//SHADOW COLOURS
+			//If your HUD shadows are disabled, this will do nothing.
+			//See features.txt with instructions on how to enable shadows.
+		"cdxHealthShadow"		"32 32 32 255" //cdxHUD Default: 32 32 32 255
+		"cdxAmmoShadow"			"32 32 32 255" //cdxHUD Default: 32 32 32 255
+	
+	
+	
+	
+		//END CUSTOMIZATION
+		//DO NOT EDIT BELOW UNLESS YOU KNOW WHAT YOU'RE DOING
+	
+		//cdxHUD colours. Going to go over this list later and remove or replace unused colour variables.
 		
 		"cdxRed"			"255 255 255 255" //Red Team Colours
 		"cdxBlu"			"255 255 255 255" //Blu team colours
@@ -36,10 +60,7 @@ Scheme
 		//"cdxOverhealPulse"
 		//"cdxRedPulse"
 				
-		
-		
 
-	
 		// custom colors
 		"eBlue"				"0 135 215 255"
 		"eBlueT"			"0 135 215 150"
@@ -8967,89 +8988,76 @@ Scheme
 			"font" "resource/fonts/Neou-Thin.ttf"
 			"name" "Neou Thin"
 		}
+
 		"11"
-		{
-			"font" "resource/fonts/Champagne & Limousines.ttf"
-			"name" "Champagne & Limousines"
-		}
-		"12"
-		{
-			"font" "resource/fonts/Champagne & Limousines Bold.ttf"
-			"name" "Champagne & Limousines Bold"
-		}
-		"13"
 		{
 			"font" "resource/fonts/hudasiscariote.otf"
 			"name" "Hudas Iscariote"
 		}				
-		"14"
+		"12"
 		{
 			"font" "resource/fonts/QualxHudShapes.ttf"
 			"name" "QualxHudShapes"
 		}
-		"15"
+		"13"
 		{
 			"font" "resource/fonts/heydings_icons.ttf"
 			"name" "font3933"
 		}
-		"16"
+		"14"
 		{
 			"font" "resource/fonts/abeatbykai.ttf"
 			"name" "abeatbyKai"
 		}
-		"17" 
+		"15" 
 		{
 			"font" "resource/fonts/Archive.otf"
 			"name" "Archive"
 		}
-		"18" 
+		"16" 
 		{
 			"font"	"resource/fonts/Crosshairs.otf"
 			"name"	"Crosshairs Regular"
 		}
-		"19" 
+		"17" 
 		{
 			"font"	"resource/fonts/Crosshair.ttf"
 			"name"	"Crosshair"
 		}
-		"20" 
-		{
-			"font"	"resource/fonts/EJPCrosshairs.ttf"
-			"name"	"EJPCrosshairs"
-		}
-		"21" 
+
+		"18" 
 		{
 			"font" "resource/fonts/Blocks.ttf"
 			"name" "Blocks"
 		}
-		"22" 
+		"19" 
 		{
 			"font" "resource/fonts/HexagonFont.ttf"
 			"name" "HexagonFont"
 		}
-		"23" 
+		"20" 
 		{
 			"font" "resource/fonts/MuseoSansCyrl-500.otf"
 			"name" "MuseoSansCyrl-500"
 		}
-		"24" 
+		"21" 
 		{
 			"font" "resource/fonts/Paula.ttf"
 			"name" "Paula"
 		}
-		"25"
+		"22"
 		{
 			"font" "resource/fonts/Gotham-Medium.otf"
 			"name" "Gotham-Medium"
 		}
 
-		"26"
+		"23"
 		{
 			"font" "resource/fonts/strasuaregular.ttf"
 			"name" "Strasua-Regular"
 		}
 	
-		"27"
+		"24"
 		{
 			"font" "resource/fonts/cdxSkull.ttf"
 			"name" "cdxSkull"
