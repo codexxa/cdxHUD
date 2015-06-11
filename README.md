@@ -1,29 +1,19 @@
 # cdxHUD
-Ready for alpha testing!
+cdxHUD was designed to have a stylish, but minimal design for clarity in the competitive 9v9 and 6v6 scenes. It removes visual clutter and emphasises elements that are important to gameplay. 
 
+Inspired by the stylish visuals of EJP, the Boldness of Garm3n 4MP, and the minimalism of oxide.
 
-##Mission Statement:
-Create a clean, effecient TF2 hud for the competitive scene that doesn't use over 9000 fonts.
-Based on ejpHUD and influenced by Garm3nHUD.
+###Attetion:
+cdxHUD is designed around competitive TF2. By downloading and using this HUD, you acknowledge and understand that certain gamemodes and items will not be supported.
+
+[cdxHUD Steam Group](http://steamcommunity.com/groups/cdxHUD)
+[cdxHUD Website](http://hud.codexa.tv)
+[Codexa's Stream](http://twitch.tv/codexa)
 
 ####To Do
-1.Main Menu
-- [ ] Fix OCD box placement
-- [ ] Fix positioning of certain elements
-
-2.Scoreboards
-- [x] 6v6
-- [x] 9v9
-
-3.Font Issues
-- [x] Fix fonts for EVERYTHING
-
-4.Clean up
+1.Clean up
 - [ ] Clean up useless code
 - [ ] Organise/format code
 - [ ] Make everything as efficient as possible
-- [ ] Delete unused fonts
+- [x] Delete unused fonts
 
-
-######Disclaimer
->This HUD is designed around competitive TF2, which means some gamemodes are not supported.
