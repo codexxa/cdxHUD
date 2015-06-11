@@ -1846,4 +1846,9 @@
 
 	}
 	
+	CHealthAccountPanel
+	{
+		"fieldName"		"CHealthAccountPanel"
+	}
+	
 }
