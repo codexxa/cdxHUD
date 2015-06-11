@@ -3,7 +3,7 @@ cdxHUD was designed to have a stylish, but minimal design for clarity in the com
 
 Inspired by the stylish visuals of EJP, the Boldness of Garm3n 4MP, and the minimalism of oxide.
 
-###Attetion:
+###Attention:
 cdxHUD is designed around competitive TF2. By downloading and using this HUD, you acknowledge and understand that certain gamemodes and items will not be supported.
 
 [cdxHUD Steam Group](http://steamcommunity.com/groups/cdxHUD)   
