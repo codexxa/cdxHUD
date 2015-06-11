@@ -47,7 +47,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NeouB60"
+		"font"			"NeouB40"
 		"fgcolor"		"eWhite"
 	}	
 
@@ -117,7 +117,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"NeouB60"
+		"font"			"NeouB40"
 		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "eWhite"

@@ -106,10 +106,10 @@
 		"wrap"		"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"NeouB60"
+		"font"			"NeouB40"
 		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "eWhite"
+		"defaultFgColor_override" "255 255 255 255"
 		"armedFgColor_override" "eBlue"
 		"depressedFgColor_override" "eBlue"
 		"selectedFgColor_override" "eBlue"
