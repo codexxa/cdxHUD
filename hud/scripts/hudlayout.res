@@ -24,8 +24,8 @@
 	{
 		"controlName"				"CExLabel"
 		"fieldName"	 				"ScatterSpread"
-		"visible"					"0"
-		"enabled"					"0"
+		"visible"					"1"
+		"enabled"					"1"
 		"zpos"						"2"
 			
 		"xpos"						"c-99"
@@ -151,8 +151,8 @@
 	{		
 		"controlName"				"CExLabel"
 		"fieldName"	 				"ThinCircle"
-		"visible"					"0"
-		"enabled"					"0"
+		"visible"					"1"
+		"enabled"					"1"
 		"zpos"						"2"
 		
 		"xpos"						"c-100"

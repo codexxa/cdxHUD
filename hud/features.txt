@@ -1,4 +1,4 @@
-_ATTENTION!
+﻿_ATTENTION!
 	cdxHUD is designed around competitive TF2. By downloading and using this HUD, you acknowledge and understand that certain gamemodes and items will not be supported.
 
 _Beta Testers
@@ -10,8 +10,6 @@ _Beta Testers
 	"Can you include damage number customization?"
 	"x background is too transparent, can you make that clearer?"
 	
-	Before submitting your suggestion, ask yourself why you're submitting it. If the reason is because you personally want a small change, it probably won't be considered.
-
 _Features
 
 	cdxHUD was designed to have a stylish, but minimal design for clarity in the competitive 6v6 and 9v9 scenes.
@@ -30,7 +28,7 @@ _Features
 		-Features both 9v9 and 6v6 format
 		-Removes unimportant stats for less visual clutter
 		-Large KDA numbers	
-		-Player Deaths are highlighted in red, drawing more attention to how often the player is dying
+		-Player Deaths are highlighted in red, drawing more attention to how often the player is dying - This is scrapped for the time being, since the gun mettle update.
 
 	Main Menu:
 		-Your steam name featured at the top of the menu
