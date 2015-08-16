@@ -11,6 +11,16 @@ cdxHUD is designed around competitive TF2. By downloading and using this HUD, yo
 [cdxHUD Website](http://hud.codexa.tv)  
 [Codexa's Stream](http://twitch.tv/codexa)  
 
+###Promote cdxHUD
+Promote cdxHUD with these easy copy and paste codes.
+
+#####Twitch:
+`[cdxHUD](https://github.com/codexxa/cdxHUD)`
+#####Steam/BBCode:
+`[url=https://github.com/codexxa/cdxHUD]cdxHUD[/url]`
+#####HTML:
+`<a href="https://github.com/codexxa/cdxHUD">cdxHUD</a>`
+
 ####To Do
 1.Clean up
 - [ ] Clean up useless code
