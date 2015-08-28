@@ -73,7 +73,7 @@
 				
 				//To enable the shadow, set alpha to 255.
 				//To Disable, set to 0
-				"alpha"					"0"
+				"alpha"					"255"
         } 
 
         "AmmoInReserve"
@@ -112,7 +112,7 @@
 				
 				//To enable the shadow, set alpha to 255.
 				//To Disable, set to 0
-				"alpha"					"0"
+				"alpha"					"255"
         }              
 
 
@@ -153,7 +153,7 @@
 				
 				//To enable the shadow, set alpha to 255.
 				//To Disable, set to 0
-				"alpha"					"0"
+				"alpha"					"255"
                
         }      
 

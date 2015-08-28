@@ -3474,6 +3474,481 @@ Scheme
 			"antialias" 	"1"
 			}
 		}
+
+		//Garm3n Crosshairs
+		"FMCircle"
+		{
+			"1"
+			{
+				"name"		"Formas germetricas 1"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairNormal"
+		{
+			"1"
+			{
+				"name"		"Symbol"
+				"tall"		"26"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+
+		"CrossHairRequest"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+
+		"CrossHairKonrWings"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairKonrDot"
+		{
+			"1"
+			{
+				"name"		"Wibble"
+				"tall"		"19"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairKonrWingsOutline"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairKonrDotOutline"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"4"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"0"
+			}
+		}
+
+		"CrossHairCircle"
+		{
+			"1"
+			{
+				"name"		"Formas germetricas 1"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairCircleFilling"
+		{
+			"1"
+			{
+				"name"		"BulletBalls AOE"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairSpecialCombo1"
+		{
+			"1"
+			{
+				"name"		"Formas germetricas 1"
+				"tall"		"4"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairSpecialCombo2"
+		{
+			"1"
+			{
+				"name"		"BulletBalls AOE"
+				"tall"		"3"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairSmiley"
+		{
+			"1"
+			{
+				"name"		"Emoticons"
+				"tall"		"9"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"CrossHairSmileyBG"
+		{
+			"1"
+			{
+				"name"		"PizzaDude Bullets"
+				"tall"		"6"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairDotOutlinePulse"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"4"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"0"
+			}
+		}
+
+		"xHairNormalPulse"
+		{
+			"1"
+			{
+				"name"		"Symbol"
+				"tall"		"26"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+
+		"xHairRequestPulse"
+		{
+			"1"
+			{
+				"name"		"Courier"
+				"tall"		"20"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+
+		"xHairQPlusPulse"
+		{
+			"1"
+			{
+				"name"		"Guifx v2 Transports"
+				"tall"		"12"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+
+		"xHairRetroPulse"
+		{
+			"1"
+			{
+				"name"		"Retro Mono Wide"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairRetroOutline"
+		{
+			"1"
+			{
+				"name"		"Retro Mono Wide"
+				"tall"		"25"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairRetroOutline2"
+		{
+			"1"
+			{
+				"name"		"Retro Mono Wide"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairKonrWingsPulse"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairKonrDotPulse"
+		{
+			"1"
+			{
+				"name"		"Wibble"
+				"tall"		"19"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairKonrWingsOutlinePulse"
+		{
+			"1"
+			{
+				"name"		"Garm3nFont"
+				"tall"		"23"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairKonrDotOutlinePulse"
+		{
+			"1"
+			{
+				"name"		"Paula"
+				"tall"		"4"
+				"weight"	"0"
+				"outline" "1"
+				"antialias"	"0"
+			}
+		}
+
+		"xHairCirclePulse"
+		{
+			"1"
+			{
+				"name"		"Formas germetricas 1"
+				"tall"		"28"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleSmallPulse"
+		{
+			"1"
+			{
+				"name"		"Arista 2.0 Light"
+				"tall"		"32"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleSmallShadow"
+		{
+			"1"
+			{
+				"name"		"Arista 2.0 Light"
+				"tall"		"35"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleSmallShadow2"
+		{
+			"1"
+			{
+				"name"		"Arista 2.0 Light"
+				"tall"		"27"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleTinyPulse"
+		{
+			"1"
+			{
+				"name"		"Cerebro"
+				"tall"		"11"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleTinyShadow"
+		{
+			"1"
+			{
+				"name"		"Cerebro"
+				"tall"		"14"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairCircleTinyShadow2"
+		{
+			"1"
+			{
+				"name"		"Cerebro"
+				"tall"		"6"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2CirclePulse"
+		{
+			"1"
+			{
+				"name"		"Soldier"
+				"tall"		"30"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairGarm3nPulse"
+		{
+			"1"
+			{
+				"name"		"Wibble"
+				"tall"		"22"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairGarm3nOutline"
+		{
+			"1"
+			{
+				"name"		"Wibble"
+				"tall"		"6"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairDotPulse"
+		{
+			"1"
+			{
+				"name"		"BulletBalls AOE"
+				"tall"		"3"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairDotPulseShadow"
+		{
+			"1"
+			{
+				"name"		"BulletBalls AOE"
+				"tall"		"4"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse1"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse2"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"20"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse3"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"21"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse4"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"21"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse5"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"21"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		"xHairTF2Pulse6"
+		{
+			"1"
+			{
+				"name"		"Franklin Gothic Medium"
+				"tall"		"21"
+				"weight"	"0"
+				"antialias"	"1"
+			}
+		}
+
+		//end garm3n xhairs
 		
 		"Icon8"
 		{
@@ -9106,6 +9581,41 @@ Scheme
 		{
 			"font" "resource/fonts/cdxSkull.ttf"
 			"name" "cdxSkull"
+		}
+//crosshairs, clean up later
+		"25" 
+		{
+			"font" "resource/fonts/FORMASGE.ttf" //Thin Circle
+			"name" "Formas germetricas 1"
+		}			
+		"26" 
+		{
+			"font" "resource/fonts/symbol.ttf"	//xHairTinyCross
+			"name" "symbol"
+		}
+		"27" 
+		{
+			"font" "resource/fonts/BULLBA__0.TTF"
+			"name" "BULLBA__0"
+		}
+
+		"28" 
+		{
+			"font" "resource/fonts/Cerebro.ttf"
+			"name" "Cerebro"
+		}
+
+		"29" 
+		{
+			"font" "resource/fonts/Guifx v2 Transports.ttf"
+			"name" "Guifx v2 Transports"
+		}
+
+
+		"30" 
+		{
+			"font" "resource/fonts/Soldier.ttf"
+			"name" "Soldier"
 		}
 		
 	}

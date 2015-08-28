@@ -5,17 +5,329 @@
         {
                 "ControlName"   "EditablePanel"
                 "fieldName"             "HudPlayerHealth"
-                "xpos"                  "c-290" //c-299
-                "ypos"                  "r106"
-                "zpos"                  "2"
-                "wide"                  "300"
-                "tall"                  "200"
+				"xpos"			"c-291"		
+				"ypos"			"r280"
+				"zpos"			"2"
+				"wide"			"350"
+				"tall"			"270"
                 "visible"               "1"
                 "enabled"               "1"    
                 "HealthBonusPosAdj"     "35"
                 "HealthDeathWarning"    "0.49"
                 "HealthDeathWarningColor"       "HUDDeathWarning"
-        }      
+        } 
+	//crosshair start
+
+	ScatterSpread
+	{
+		"controlName"				"CExLabel"
+		"fieldName"	 				"ScatterSpread"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"1"
+
+		"xpos"						"279"
+		"ypos"						"25"
+		"wide"						"25"
+		"tall"						"32"
+
+		"font"						"Crosshairs32"
+		"labelText"					"0"
+		"textAlignment"				"center"
+		"outline"					"1"
+					
+		"fgcolor"					"0 255 0 255"
+	}
+
+
+	xHairDotOutlinePulse
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairDotOutlinePulse"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"1"
+
+		"xpos"			"287"
+		"ypos"			"37"
+		"wide"			"8"
+		"tall"			"7"
+
+		"font"			"xHairDotOutlinePulse"
+		"labelText"		"+"
+		"fgcolor"		"Garm3nHUDxHair"
+		"textAlignment"	"center"
+	}
+
+	xHairLargeCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairLargeCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"1"
+
+		"xpos"			"280"
+		"ypos"			"25"
+		"wide"			"23"
+		"tall"			"24"
+
+		"font"			"xHairNormalPulse"
+		"labelText"		"+"
+		"fgcolor"		"Garm3nHUDxHair"
+		"textAlignment"	"center"
+	}
+
+	xHairMediumCross
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairMediumCross"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"1"
+
+		"xpos"			"280"
+		"ypos"			"28"
+		"wide"			"23"
+		"tall"			"25"
+
+		"font"			"xHairRequestPulse"
+		"labelText"		"+"
+		"fgcolor"		"Garm3nHUDxHair"
+		"textAlignment"	"center"
+	}
+
+	xHairTinyCross
+	{
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairTinyCross"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"276"
+		"ypos"						"24"
+		"wide"						"32"
+		"tall"						"32"
+		
+		"font"						"Symbol24"
+		"labelText"					"+"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"0 255 0 255"
+	}
+
+	
+	//Codexa's Favourite
+	xHairThinCircle  //Adjust the font size later (smaller)
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairThinCircle"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"275"
+		"ypos"			"24"
+		"wide"			"32"
+		"tall"			"32"
+
+		"font"			"xHairCirclePulse"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 125"
+	}
+
+	CrossHairCircleFilling //garm3nhud's thin circle filling REMEMBER TO ADJUST THIS AS WELL
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"CrossHairCircleFilling"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"246"
+		"ypos"			"24"
+		"wide"			"62"
+		"tall"			"32"
+
+		"font"			"CrossHairCircleFilling" 
+		//Not working, figure out which font you deleted, dummy
+		"labelText"		">" 
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"235 226 202 0"
+	}
+	
+	xHairThickCircle		
+	{		
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairThickCircle"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"275"
+		"ypos"						"28"
+		"wide"						"32"
+		"tall"						"32"
+		
+		"font"						"Crosshairs34"
+		"labelText"					"9"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"255 255 255 255"
+	}	
+	
+	xHairThickCircleDot		
+	{		
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairThickCircleDot"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"275"
+		"ypos"						"28"
+		"wide"						"32"
+		"tall"						"32"
+		
+		"font"						"Crosshairs34"
+		"labelText"					"8"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"0 255 0 255"
+	}		
+
+	xHairCircleTinyPulse
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairCircleTinyPulse"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"276"
+		"ypos"			"25"
+		"wide"			"32"
+		"tall"			"34"
+
+		"font"			"xHairCircleTinyPulse"
+		"labelText"		"o"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"Garm3nHUDxHair"
+	}
+
+	xHairTF2CirclePulse
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairTF2CirclePulse"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"2"
+
+		"xpos"			"260"
+		"ypos"			"25"
+		"wide"			"48"
+		"tall"			"32"
+
+		"font"			"xHairTF2CirclePulse"
+		"labelText"		"0"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"Garm3nHUDxHair"
+	}
+	
+	xHairDot
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"xHairDot"
+		"visible"		"0"
+		"enabled"		"0"
+		"zpos"			"1"
+
+		"xpos"			"c-236"
+		"ypos"			"c-300"
+		"wide"			"199"
+		"tall"			"201"
+
+		"font"			"xHairDotPulse"
+		"labelText"		">"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"Garm3nHUDxHair"
+	}
+
+			
+	xHairWingsPlus		
+	{		
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairWingsPlus"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"273"
+		"ypos"						"26"
+		"wide"						"32"
+		"tall"						"34"
+		
+		//"font"					"CrosshairsOutline34"
+		"font"						"Crosshairs34"
+		"labelText"					"c"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"0 255 0 255"
+	}		
+			
+	xHairWings		
+	{		
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairWings"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"273"
+		"ypos"						"27"
+		"wide"						"32"
+		"tall"						"34"
+		
+		//"font"					"CrosshairsOutline34"
+		"font"						"Crosshairs34"
+		"labelText"					"d"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"0 255 0 255"
+	}		
+			
+	xHairWingsSmallDot		
+	{		
+		"controlName"				"CExLabel"
+		"fieldName"	 				"xHairWingsSmallDot"
+		"visible"					"0"
+		"enabled"					"0"
+		"zpos"						"2"
+		
+		"xpos"						"273"
+		"ypos"						"26"
+		"wide"						"32"
+		"tall"						"34"
+		
+		//"font"					"CrosshairsOutline34"
+		"font"						"Crosshairs34"
+		"labelText"					"f"
+		"textAlignment"				"center"	
+				
+		"fgcolor"					"0 255 0 255"
+	}		
+	
+	//crosshairend
+
+
+		
     "PlayerStatusHealthImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -141,8 +453,8 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValue"
-                "xpos"                  "130"
-                "ypos"                  "6"      
+                "xpos"                  "131"
+                "ypos"                  "180"      
                 "zpos"                  "5"
                 "wide"                  "100"
                 "tall"                  "50"
@@ -159,15 +471,15 @@
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValueShadow"
                 "xpos"                  "132"
-                "ypos"                  "7"      
+                "ypos"                  "181"      
                 "zpos"                  "4"
                 "wide"                  "100"
                 "tall"                  "50"
 				
-				//To enable the shadow, set visible and enabled to 1.
+				//To disable the shadow, set visible and enabled to 0.
 				
-                "visible"               "0"	//Set to 1
-                "enabled"               "0"	//Set to 1
+                "visible"               "1"	//Set to 1
+                "enabled"               "1"	//Set to 1
 				
                 "labelText"             "%Health%"
                 "textAlignment"         "left"       
@@ -199,7 +511,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatusBleedImage"
                 "xpos"                  "70"
-                "ypos"                  "14"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "18"
                 "tall"                  "18"
@@ -214,7 +526,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatusMilkImage"
                 "xpos"                  "70"
-                "ypos"                  "14"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "18"
                 "tall"                  "18"
@@ -229,7 +541,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatusMarkedForDeathImage"
                 "xpos"                  "85"
-                "ypos"                  "14"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -244,7 +556,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatusMarkedForDeathSilentImage"
                 "xpos"                  "85"
-                "ypos"                  "14"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -259,7 +571,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicUberBulletResistImage"
                 "xpos"                  "85"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -274,7 +586,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicUberBlastResistImage"
                "xpos"                  "85"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -289,7 +601,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicUberFireResistImage"
                 "xpos"                  "85"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -305,7 +617,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicSmallBulletResistImage"
               "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -320,7 +632,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicSmallBlastResistImage"
                "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -335,7 +647,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_MedicSmallFireResistImage"
                 "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -368,7 +680,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_SoldierOffenseBuff"
                 "xpos"                  "85"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "15"
                 "tall"                  "15"
@@ -384,7 +696,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_SoldierDefenseBuff"
                 "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -400,7 +712,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_SoldierHealOnHitBuff"
                 "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"
@@ -415,7 +727,7 @@
                 "ControlName"   "ImagePanel"
                 "fieldName"             "PlayerStatus_Parachute"
                 "xpos"                  "70"
-                "ypos"                  "12"
+                "ypos"                  "180"
                 "zpos"                  "7"
                 "wide"                  "21"
                 "tall"                  "21"

@@ -1,96 +1,60 @@
 "Resource/UI/HudAchievementTrackerItem.res"
 {	
-	"HudAchievementTrackerItem"
+	"ItemAttributeProgressPanel"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"HudAchievementTrackerItem"
-		"xpos"			"0"		[$WIN32]
-		"ypos"			"0"		[$WIN32]
-		"zpos"			"3"
-		"wide"			"190"
-		"tall"			"29"
-		"visible"		"0"
+		"fieldName"		"ItemAttributeProgressPanel"
+		"xpos"			"p0.03"
+		"ypos"			"p0.5"
+		"zpos"			"300"
+		"wide"			"115"
+		"tall"			"20"
+		"visible"		"1"
 		"enabled"		"1"	
+		"mouseinputenabled"	"0"
+		"proportionaltoparent"	"1"
 		
-		"bgcolor_override"		"0 0 0 0"
-		
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
+
+		"enabled_text_color_override"		"Black"
+
+		"disabled_text_color_override"		"Black"
 	}
 	
-	"AchievementName"
+	"AttribDesc"
 	{
-		"ControlName"	"Label"
-		"fieldName"		"AchievementName"
-		"labeltext"		""
-		"xpos"			"5"
+		"ControlName"	"CExLabel"
+		"fieldName"		"AttribDesc"
+		"labeltext"		"%attr_desc%"
+		"xpos"			"0"
 		"ypos"			"0"
-		"wide"			"190"
-		"tall"			"14"
+		"wide"			"f0"
+		"tall"			"f0"
 		"zpos"			"4"
-		"textinsetx"	"5"
-		"fgcolor_override"		"BasWhite"
-		"font"			"NeouB12"
-		"textAlignment"		"north-west"
-	}
-	"AchievementNameGlow"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"AchievementNameGlow"
-		"labeltext"		""
-		"xpos"			"5"
-		"ypos"			"40"
-		"wide"			"190"
-		"tall"			"10"
-		"zpos"			"4"
-		"fgcolor_override"		"BasWhite"
-		"font"			"NeouB12"
-		"textinsetx"	"5"
-		"textinsety"	"0"
-		"textAlignment"		"north-west"
-	}
-	
-	"AchievementDesc"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"AchievementDesc"
-		"labeltext"		""
-		"xpos"			"5"
-		"ypos"			"12"
-		"wide"			"190"
-		"tall"			"22"
-		"zpos"			"4"
-		"textinsetx"	"5"
-		"fgcolor_override"		"BasWhite"
-		"font"			"NeouB8"
-		"wrap"			"1"
+		//"textinsetx"	"400"
+		"font"			"QuestObjectiveText"
+
+		"wrap"				"1"
 		"TextAlignment"		"north-west"
+
+		"proportionaltoparent" "1"
 	}
-	
-	"ProgressBarBG"
+
+	"AttribGlow"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ProgressBarBG"
-		"xpos"		"7"
-		"ypos"		"12"
-		"wide"		"100"
-		"tall"		"6"
-		"fillcolor"	 "BasDark"
+		"ControlName"	"Label"
+		"fieldName"		"AttribGlow"
+		"labeltext"		"%attr_desc%"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
 		"zpos"			"4"
-		"visible"		"1"
-		"enabled"		"1"
-	}
-	
-	"ProgressBar" // current completed
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ProgressBar"
-		"xpos"			"7"
-		"ypos"			"12"
-		"wide"			"0"
-		"tall"			"6"
-		"fillcolor"		"BasWhite"
-		"zpos"			"5"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"font"			"QuestObjectiveTracker_DescBlur"
+		"textinsetx"	"5"
+		"textAlignment"		"north-west"
+		"wrap"			"1"
+		"proportionaltoparent" "1"
 	}
 }

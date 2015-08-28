@@ -98,7 +98,7 @@
 			"visible"		"0"
 		}
 	}
-	"BlueTeamBG" //swap
+	"BlueTeamBG"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"BlueTeamBG"
@@ -135,6 +135,27 @@
 		"tall"			"175"
 		"tall_minmode"  "260"
 		"wide_minmode"	"230"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 100"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+
+	"StatScoreboardBG" //Background for the stats
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"StatScoreboardBG"
+		"ypos"			"c80"
+		"xpos"			"c-100"
+		"zpos"			"0"
+		"ypos_minmode"  "c120"
+		"xpos_minmode"	"c-100"
+		"wide"			"200"
+		"tall"			"75"
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"

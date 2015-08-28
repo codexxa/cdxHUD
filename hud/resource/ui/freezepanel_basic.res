@@ -5,7 +5,7 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r200" //9999
-		"ypos"			"0"	//300
+		"ypos"			"100"	//300
 		"zpos"			"10" //1
 		"wide"			"190" //270
 		"tall"			"100" //180
@@ -33,7 +33,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
