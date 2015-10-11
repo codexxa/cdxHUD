@@ -1071,7 +1071,7 @@
 	
 	AnnotationsPanel
 	{
-		
+		"fieldName"		"AnnotationsPanel"
 	}
 
 	WaitingForPlayersPanel
@@ -1359,12 +1359,13 @@
 	
 	HudTrainingMsg
 	{
+		"fieldName"		"HudTrainingMsg"
 		
 	}
 	
 	TrainingComplete
 	{
-		
+		"fieldName" 	"TrainingComplete"
 	}
 
 	HudInspectPanel
@@ -1513,6 +1514,7 @@
 	}
 	//missing entries fixed
 	//so much for clean code 
+	
 	HudMedicCharge
 	{
 		"fieldName"		"HudMedicCharge"
@@ -1529,6 +1531,8 @@
 	HudDemomanPipes
 	{
 		"fieldName"		"HudDemomanPipes"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	CHudDemomanChargeMeter
@@ -1540,6 +1544,8 @@
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 	
 	CTFStreakNotice
@@ -1577,4 +1583,19 @@
 		"fieldName"		"CHealthAccountPanel"
 	}
 	
+
+	QuestNotificationPanel
+	{
+		"fieldName"		"QuestNotificationPanel"
+	}
+	
+	QuestLogContainer
+	{
+		"fieldName"		"QuestLogContainer"
+	}
+	
+	ItemAttributeTracker
+	{
+		"fieldName"		"ItemAttributeTracker"
+	}
 }
