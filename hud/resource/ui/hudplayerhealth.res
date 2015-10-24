@@ -44,8 +44,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairDotOutlinePulse"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"287"
@@ -105,7 +105,7 @@
 		"enabled"					"0"
 		"zpos"						"2"
 		
-		"xpos"						"276"
+		"xpos"						"275"
 		"ypos"						"24"
 		"wide"						"32"
 		"tall"						"32"
@@ -358,12 +358,12 @@
 			"tall"			"56"	
 		}
 	
-	"PlayerStatusHealthBonusImage" //health cross bonus - Work on this later, need to fix the positioning of hudplayerhealth...
+	"PlayerStatusHealthBonusImage" //health cross bonus - disabled. See Extra files for health cross replacement.
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PlayerStatusHealthBonusImage"
-			"xpos"                  "9999"	//150
-			"ypos"                  "9999"   //10   
+			"xpos"                  "9999"
+			"ypos"                  "9999"  
 			"zpos"                  "0"
 			"wide"			"40"
 			"tall"			"40"

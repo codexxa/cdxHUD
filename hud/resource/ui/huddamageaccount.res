@@ -16,7 +16,7 @@
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"0 175 255 255"
 		"NegativeColor"			"cdxDmgNums"
-		"delta_lifetime"		"1.5"
+		"delta_lifetime"		"2"
 		"delta_item_font"		"strasua24"
 		"delta_item_font_big"	"strasua24"
 	}
