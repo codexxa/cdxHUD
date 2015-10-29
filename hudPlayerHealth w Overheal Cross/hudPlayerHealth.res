@@ -358,17 +358,18 @@
 			"tall"			"56"	
 		}
 	
-	"PlayerStatusHealthBonusImage" //health cross bonus - Work on this later, need to fix the positioning of hudplayerhealth...
+	"PlayerStatusHealthBonusImage" //health cross bonus 
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PlayerStatusHealthBonusImage"
-			"xpos"                  "140"	//140
+			"xpos"                  "150"	//140
 			"ypos"                  "185"   //185   
 			"zpos"                  "0"
 			"wide"			"40"
 			"tall"			"40"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"alpha"			"150"
 			"image"			"../hud/health_over_bg"
 			"scaleImage"	"1"	
 		}
@@ -453,7 +454,7 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValue"
-                "xpos"                  "110"
+                "xpos"                  "122"
                 "ypos"                  "180"      
                 "zpos"                  "5"
                 "wide"                  "100"
@@ -470,7 +471,7 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValueShadow"
-                "xpos"                  "111"
+                "xpos"                  "123"
                 "ypos"                  "181"      
                 "zpos"                  "4"
                 "wide"                  "100"
@@ -830,14 +831,14 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneWarlock"
-		"xpos"			"85"
-		"ypos"			"12"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"0"	
 		"image"			"../Effects/powerup_warlock_hud"
 		"fgcolor"		"eBlueT"
 	}

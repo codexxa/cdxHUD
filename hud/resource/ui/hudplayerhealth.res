@@ -830,8 +830,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_RuneWarlock"
-		"xpos"			"85"
-		"ypos"			"12"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
