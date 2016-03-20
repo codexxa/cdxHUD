@@ -44,8 +44,8 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairDotOutlinePulse"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"zpos"			"1"
 
 		"xpos"			"287"
@@ -358,17 +358,18 @@
 			"tall"			"56"	
 		}
 	
-	"PlayerStatusHealthBonusImage" //health cross bonus - disabled. See Extra files for health cross replacement.
+	"PlayerStatusHealthBonusImage" //health cross bonus 
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PlayerStatusHealthBonusImage"
-			"xpos"                  "9999"
-			"ypos"                  "9999"  
+			"xpos"                  "150"	//140
+			"ypos"                  "185"   //185   
 			"zpos"                  "0"
 			"wide"			"40"
 			"tall"			"40"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"alpha"			"150"
 			"image"			"../hud/health_over_bg"
 			"scaleImage"	"1"	
 		}
@@ -453,7 +454,7 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValue"
-                "xpos"                  "131"
+                "xpos"                  "122"
                 "ypos"                  "180"      
                 "zpos"                  "5"
                 "wide"                  "100"
@@ -461,7 +462,7 @@
                 "visible"               "1"
                 "enabled"               "1"
                 "labelText"             "%Health%"
-                "textAlignment"         "left"       
+                "textAlignment"         "center"       
                 "font"                  "strasua48" 
                 "fgcolor"               "255 255 255 255"
         }
@@ -470,7 +471,7 @@
         {
                 "ControlName"   "CExLabel"
                 "fieldName"             "PlayerStatusHealthValueShadow"
-                "xpos"                  "132"
+                "xpos"                  "123"
                 "ypos"                  "181"      
                 "zpos"                  "4"
                 "wide"                  "100"
@@ -482,7 +483,7 @@
                 "enabled"               "1"	//Set to 1
 				
                 "labelText"             "%Health%"
-                "textAlignment"         "left"       
+                "textAlignment"         "center"       
                 "font"                  "strasua48" 
                 "fgcolor"               "cdxHealthShadow"
         }
@@ -835,9 +836,9 @@
 		"zpos"			"7"
 		"wide"			"24"
 		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"0"	
 		"image"			"../Effects/powerup_warlock_hud"
 		"fgcolor"		"eBlueT"
 	}

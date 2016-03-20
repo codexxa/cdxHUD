@@ -52,7 +52,7 @@
 	"6v6"
 	{
 		"label" 	"6v6"
-		"command"	"engine cl_hud_minmode 1"
+		"command"	"engine toggle cl_hud_minmode 1"
 	
 	}
 	"9v9"

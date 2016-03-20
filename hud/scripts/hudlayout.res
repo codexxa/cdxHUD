@@ -1,5 +1,24 @@
 "Resource/HudLayout.res"
 {
+
+	HudPlayerStatus
+	{
+		"fieldName" "HudPlayerStatus"
+		"visible" "1"
+		"enabled" "1"
+
+
+
+
+
+
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+
+		"tall"	"480"
+	}
+	
     /////////////////////////////// CROSSHAIRS //////////////////////////////////	
 
 	
@@ -232,17 +251,6 @@
 		"visible" 		"0"
 		"enabled" 		"1"
 		"textAlignment" "center"
-	}
-	
-	HudPlayerStatus
-	{
-		"fieldName" "HudPlayerStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"0"
-		"ypos"	"0"
-		"wide"	"f0"
-		"tall"	"480"
 	}
 	
 	HudObjectiveStatus
@@ -1359,13 +1367,11 @@
 	
 	HudTrainingMsg
 	{
-		"fieldName"		"HudTrainingMsg"
-		
+
 	}
 	
 	TrainingComplete
 	{
-		"fieldName" 	"TrainingComplete"
 	}
 
 	HudInspectPanel
@@ -1398,6 +1404,18 @@
 		"ypos"			"280"
 		"wide"			"250"
 		"tall"			"160"
+	}
+	
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
 	}
 	
 	ReplayReminder
@@ -1521,6 +1539,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
+
 	}
 	CTFFlagCalloutPanel
 	{
@@ -1581,21 +1600,81 @@
 	CHealthAccountPanel
 	{
 		"fieldName"		"CHealthAccountPanel"
+		"xpos"			"c-70"		
+		"ypos"			"c165"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"100"
+        "visible"       "1"
+        "enabled"       "1" 
 	}
 	
 
-	QuestNotificationPanel
+	"QuestNotificationPanel"
 	{
-		"fieldName"		"QuestNotificationPanel"
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 	
-	QuestLogContainer
+	"QuestLogContainer"
 	{
-		"fieldName"		"QuestLogContainer"
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
-	
-	ItemAttributeTracker
+
+	"MatchMakingContainer"
 	{
-		"fieldName"		"ItemAttributeTracker"
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	HudCompetitive
+	{
+		"fieldName"				"HudCompetitive"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 }
