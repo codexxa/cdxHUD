@@ -9,7 +9,7 @@ cdxHUD is designed around competitive TF2. By downloading and using this HUD, yo
 [cdxHUD Steam Group](http://steamcommunity.com/groups/cdxHUD)  
 [cdxHUD Screenshots](http://imgur.com/a/XUBka)  
 [cdxHUD Website](http://hud.codexa.tv)  
-[Codexa's Stream](http://twitch.tv/codexa)  
+
 
 ###Promote cdxHUD
 Promote cdxHUD with these easy copy and paste codes.
